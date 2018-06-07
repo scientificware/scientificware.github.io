@@ -1,4 +1,6 @@
-Welcome to the openjdk-jfx wiki!
+![logo_mathmlguard](https://user-images.githubusercontent.com/19194678/41108486-e9aac9e2-6a74-11e8-9055-bf714fa45609.png)
+
+# Welcome to the ScientificWare openjdk-jfx Wiki!
 
 Comment travailler au cœur de JavaFX :
 - Configurer son environnement de travail : 
