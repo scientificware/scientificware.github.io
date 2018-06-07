@@ -1,4 +1,4 @@
-Essai | Essai | Essai
+Mageia package name | Description |
 ---|---|---
 Essai | Essai | Essai
 lib64alsa2-devel| Development files for Advanced Linux Sound Architecture (ALSA)|  
