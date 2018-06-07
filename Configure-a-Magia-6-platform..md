@@ -1,7 +1,8 @@
-**Configure my build and run environment to debug.** 
+**Configure my build and run environment to debug.**
+
 Mageia 6, all the required development packages
 
-Mageia package name | Description |  
+Mageia package name | Description |
 -- | -- | --
 lib64alsa2-devel| Development files for Advanced Linux Sound Architecture (ALSA)|  
 lib64mesagl1-devel|Development files for Mesa (OpenGL compatible 3D lib)|  
