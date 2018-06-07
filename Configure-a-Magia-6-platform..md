@@ -1,6 +1,6 @@
 Mageia package name | Description | Comment
 ---|---|---
-[]lib64alsa2-devel| Development files for Advanced Linux Sound Architecture (ALSA)|  
+[ ] lib64alsa2-devel| Development files for Advanced Linux Sound Architecture (ALSA)|  
 lib64mesagl1-devel|Development files for Mesa (OpenGL compatible 3D lib)|  
 lib64gstreamer1.0-devel|Libraries and include files for GStreamer streaming-media framework|  
 lib64gstreamer-plugins-base1.0-devel|GStreamer Plugin Library Headers​|  
