@@ -1,4 +1,6 @@
-# [JUnit](https://junit.org/) :
+# Les outils :
+
+## [JUnit](https://junit.org/) :
 
 Unlike previous versions of JUnit, JUnit 5 is composed of several different modules from three different sub-projects.
 
@@ -10,13 +12,14 @@ JUnit Jupiter is the combination of the new programming model and extension mode
 
 JUnit Vintage provides a TestEngine for running JUnit 3 and JUnit 4 based tests on the platform.
 
-# [NetBeans](https://netbeans.apache.org)
+## [NetBeans](https://netbeans.apache.org)
 
  NetBeans provides :
 - an IDE out-of-the-box code analyzers and editors for working with the latest Java 8 technologies--Java SE, Java SE Embedded, and Java ME Embedded. The IDE also has a range of new tools for HTML5/JavaScript, in particular for Node.js, KnockoutJS, and AngularJS; enhancements that further improve its support for Maven and Java EE with PrimeFaces; and improvements to PHP and C/C++ support.
 - a platform, a generic framework for Swing applications. It provides the "plumbing" that, before, every developer had to write themselves—saving state, connecting actions to menu items, toolbar items and keyboard shortcuts; window management, and so on.
 
 # La procédure :
+
 ## Première étape : 
 Le programme à tester.
 
