@@ -12,7 +12,7 @@ JUnit Jupiter is the combination of the new programming model and extension mode
 
 JUnit Vintage provides a TestEngine for running JUnit 3 and JUnit 4 based tests on the platform.
 
-Exemple de test unitaire que j'ai écrit pour Issue#71 :
+Exemple de test unitaire que j'ai écrit pour Issue#71, suivi des résultats :
 
 ```
 /*
@@ -195,6 +195,21 @@ public class MathMLRenderTest {
     }
 }
 ```
+[OpenJFX unit tests](https://wiki.openjdk.java.net/display/OpenJFX/OpenJFX+unit+tests)
+
+[Building OpenJFX and testing](https://wiki.openjdk.java.net/display/OpenJFX/Building+OpenJFX#BuildingOpenJFX-Testing)
+
+The junit test is ready to be tested
+
+gradle -PFULL_TEST=true :systemTests:test --tests MathMLRenderTest
+
+# Test Succeeded !
+- WebCore with the patch.
+
+![screenshot_20180621_010700](https://user-images.githubusercontent.com/19194678/41689233-f623777a-74ef-11e8-8fa0-32f9aba8b492.png)
+
+- WebCore without the patch.
+![screenshot_20180621_005400](https://user-images.githubusercontent.com/19194678/41688822-ef072844-74ed-11e8-9623-b7c3a7b0e29e.png)
 
 
 ## [NetBeans](https://netbeans.apache.org)
