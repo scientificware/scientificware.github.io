@@ -15,10 +15,3 @@ So I understand why when using GlyphBoundingBox, I didn't succeed to perfrom rig
 The rectangle definition are in different order : 
 - JavaFX box[1] contains Glyph descent position on the y axis (oriented from down to up) but WebCore box[1] contains the ascent position on the y axis (oriented from up to down). Thus It's a negative value when a part of the glyph is over the baseline.
 - JavaFX box[3] contains Glyph ascent position on the y axis (oriented from down to up) but WebCore box[3] contains the height of the glyph. it's always a positive value.
-
-Finally no more need of getAscent() and getDescent(), I used, pending best JavaFX metrics understanding. 
-Modify `getGlyphBoundingBox`
-
-
- in [`WCFontImpl.java`
-](https://github.com/javafxports/openjdk-jfx/blob/48fd8216450b58aa100fbacf8d070b0385f0aaf5/modules/javafx.web/src/main/java/com/sun/javafx/webkit/prism/WCFontImpl.java)
