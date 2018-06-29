@@ -4,7 +4,7 @@
 
     List the current configured remote repository for your fork.
 
-    ````
+````
     git remote -v
     origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
     origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
