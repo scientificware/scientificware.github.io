@@ -24,3 +24,4 @@ upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
 ```
 - Cloner tous les dépôts du projet.
 - Cloner les dépôts au cas par cas.
+`git checkout --track origin/develop`
