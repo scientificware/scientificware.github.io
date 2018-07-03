@@ -14,8 +14,8 @@ git rebase -i upstream/develop
 
 > and then change the `pick` to `squash` in your editor for all commits except the first one (leaving that first commit as 'pick') like this :
 
-But I prefered to use `rewrote` and `fixup`.
-- `rewrote` opens my editor (`kwrite`) and allowed me to change de commit message that resumes all next following commits :
+But I prefered to use `reword` and `fixup`.
+- `reword` opens my editor (`kwrite`) and allowed me to change de commit message that resumes all next following commits :
    - Bug JDK-8147476, commit of the following :
      FontJava.cpp :
      - Completes the implementation of the platformBoundsForGlyph(Glyph c) function in FontJava.cpp.
