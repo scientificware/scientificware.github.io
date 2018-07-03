@@ -25,7 +25,7 @@ But I prefered to use `rewrote` and `fixup`.
     ...
     
 ```
-rewrote 78bf9df Bug JDK-8147476, commit of the following:
+reword 78bf9df Bug JDK-8147476, commit of the following:
 fixup 47d9135 Update FontJava.cpp
 fixup 91023c1 Update FontJava.cpp
 fixup 2c89846 Update FontJava.cpp
