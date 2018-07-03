@@ -7,11 +7,11 @@ origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
 origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
 ````
 
-Specify a new remote upstream repository that will be synced with the fork.
+- Specify a new remote upstream repository that will be synced with the fork.
 ```
 git remote add upstream https://github.com/javafxports/openjdk-jfx.git
 ```
-Verify the new upstream repository you've specified for your fork.
+- Verify the new upstream repository you've specified for your fork.
 ```
 git remote -v
 origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
