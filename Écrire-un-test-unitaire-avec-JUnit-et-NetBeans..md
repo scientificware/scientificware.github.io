@@ -300,7 +300,7 @@ public class MathMLRenderTest extends TestBase {
 }
 ```
 
-- A smaller version :+1: 
+- A smaller version : 
 ```
 /*
  * Copyright (c) 2018, Oracle and/or its affiliates. All rights reserved.
