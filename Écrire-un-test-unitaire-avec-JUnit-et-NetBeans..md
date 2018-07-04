@@ -12,7 +12,7 @@ JUnit Jupiter is the combination of the new programming model and extension mode
 
 JUnit Vintage provides a TestEngine for running JUnit 3 and JUnit 4 based tests on the platform.
 
-Exemple de test unitaire que j'ai écrit pour Issue#71, suivi des résultats :
+- Exemple de test unitaire que j'ai écrit pour Issue#71, suivi des résultats :
 
 ```
 /*
