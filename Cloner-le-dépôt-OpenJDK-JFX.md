@@ -1,5 +1,5 @@
 - Open Terminal in the folder where you want to clone the repository.
-![](file:///home/scientificware2016/Téléchargements/Screenshot_20180705_071147.png)
+
 - Cloner le dépôt maître.
   - Clone the official repository
 `git clone https://github.com/javafxports/openjdk-jfx.git`
