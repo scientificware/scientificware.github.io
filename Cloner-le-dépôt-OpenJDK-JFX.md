@@ -4,7 +4,7 @@
   - Clone the official repository
 ```git clone https://github.com/javafxports/openjdk-jfx.git```
  
-  -Or clone your repository with your adress
+  - Or clone your repository with your adress
 ```git clone https://github.com/scientificware/openjdk-jfx.git```
 - List the current configured remote repository for your fork.
 ````
