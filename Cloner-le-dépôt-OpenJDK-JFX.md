@@ -1,5 +1,11 @@
-- Open Terminal.
+- Open Terminal in the folder where you want to clone the repository.
+![](file:///home/scientificware2016/Téléchargements/Screenshot_20180705_071147.png)
 - Cloner le dépôt maître.
+  - Clone the official repository
+`git clone https://github.com/javafxports/openjdk-jfx.git`
+or 
+  - Clone your repository with your adress
+`git clone https://github.com/scientificware/openjdk-jfx.git`
 - List the current configured remote repository for your fork.
 ````
 git remote -v
