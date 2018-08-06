@@ -12,6 +12,6 @@ Update your develop reprository :
 
 Create a branch base on the develop branch with a name relative to the issue (issue#118_HTMLEditor_and_MathML for example) `git branch issue#118_HTMLEditor_and_MathML`.
 
-Go your new working branch `git checkout issue#118_HTMLEditor_and_MathML`
+Go to your new working branch `git checkout issue#118_HTMLEditor_and_MathML`
 
 Start hacking.
