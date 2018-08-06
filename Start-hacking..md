@@ -10,7 +10,7 @@ Update your develop reprository :
 - go to your develop reprository `git checkout develop`.
 - Update develop `git pull upstream develop`.
 
-Create a branch base on the develop branch with a name relative to the issue (issue#118_HTMLEditor_and_MathML for example) `git branch issue#118_HTMLEditor_and_MathML`.
+Create a branch based on the develop branch with a name relative to the issue (issue#118_HTMLEditor_and_MathML for example) `git branch issue#118_HTMLEditor_and_MathML`.
 
 Go to your new working branch `git checkout issue#118_HTMLEditor_and_MathML`
 
