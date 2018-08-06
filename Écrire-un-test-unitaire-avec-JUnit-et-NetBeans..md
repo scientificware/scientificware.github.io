@@ -211,7 +211,7 @@ gradle -PFULL_TEST=true :systemTests:test --tests MathMLRenderTest
 - WebCore without the patch.
 ![screenshot_20180621_005400](https://user-images.githubusercontent.com/19194678/41688822-ef072844-74ed-11e8-9623-b7c3a7b0e29e.png)
 
-- A Headless test sample using testBase in `modules/javafx.web/src/test/java/test/javafx/scene/web` :
+## A Headless test sample using testBase in `modules/javafx.web/src/test/java/test/javafx/scene/web` :
 ```
 /*
  * Copyright (c) 2018, Oracle and/or its affiliates. All rights reserved.
