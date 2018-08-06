@@ -1,4 +1,4 @@
-Assume that we posted an issue for example : > HTMLEditor and MathML. #118 
+Assume that we posted an issue, for example : > HTMLEditor and MathML. #118 
 
 ![screenshot_20180806_163713](https://user-images.githubusercontent.com/19194678/43723288-9898168e-9997-11e8-8d9a-edf4cfb9ec3d.png)
 
