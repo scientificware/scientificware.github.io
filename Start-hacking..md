@@ -1,3 +1,5 @@
+file:///home/scientificware2016/Téléchargements/Screenshot_20180806_163713.png
+
 Suppose we posted an issue for example : > HTMLEditor and MathML. #118 
 
 Update your master reprository :
