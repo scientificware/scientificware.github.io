@@ -1,6 +1,6 @@
-![screenshot_20180806_163713](https://user-images.githubusercontent.com/19194678/43723288-9898168e-9997-11e8-8d9a-edf4cfb9ec3d.png)
+Assume that we posted an issue for example : > HTMLEditor and MathML. #118 
 
-Suppose we posted an issue for example : > HTMLEditor and MathML. #118 
+![screenshot_20180806_163713](https://user-images.githubusercontent.com/19194678/43723288-9898168e-9997-11e8-8d9a-edf4cfb9ec3d.png)
 
 Update your master reprository :
 - go to your master reprository `git checkout master`.
