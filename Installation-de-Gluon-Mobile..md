@@ -38,3 +38,6 @@ Définir la variable ANDROID_HOME :
 export ANDROID_HOME=$HOME/Téléchargements
 PATH=$PATH:$ANDROID_HOME/tools
 ```
+
+Tester l'application dans le simulateur de mobile :
+- Documentation : [Run apps on the Android Emulator](https://developer.android.com/studio/run/emulator).
