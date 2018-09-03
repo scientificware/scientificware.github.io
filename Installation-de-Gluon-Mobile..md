@@ -24,6 +24,9 @@ Installer la dernière version de build-tools :
 Installer ?
 - `sdkmanager "extras;android;m2repository"`
 
+Installer la bonne plateforme ?
+- `sdkmanager "platforms;android-27"`
+
 Définir la variable ANDROID_HOME :
 - Activer l'affichage des fichiers cachés.
 - Ouvrir avec write le fichier `.bash_profile`.
