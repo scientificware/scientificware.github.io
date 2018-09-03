@@ -16,3 +16,11 @@ Installation avec Mageia.
   - Par `DEFAULT_JVM_OPTS='"-Dcom.android.sdklib.toolsdir=$APP_HOME" --add-modules java.xml.bind'`
   - Éclaircir ce point, voir [Five Command Line Options To Hack The Java 9 Module System](https://blog.codefx.org/java/five-command-line-options-to-hack-the-java-9-module-system/)
 
+Définir la variable ANDROID_HOME :
+- Activer l'affichage des fichiers cachés.
+- Ouvrir avec write le fichier `.bash_profile`.
+- Ajouter les lignes suivantes :
+```
+export ANDROID_HOME=$HOME/Téléchargements
+PATH=$PATH:$ANDROID_HOME/tools
+```
