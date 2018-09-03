@@ -28,7 +28,7 @@ Installer la bonne plateforme ?
 - `sdkmanager "platforms;android-27"`
 
 Installer le simulateur de mobile :
-. `/sdkmanager "emulator"`
+- `/sdkmanager "emulator"`
 
 Définir la variable ANDROID_HOME :
 - Activer l'affichage des fichiers cachés.
