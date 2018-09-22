@@ -22,13 +22,13 @@ Installer la dernière version de build-tools :
 - `./sdkmanager "build-tools;28.0.2"`
 
 Installer ?
-- `sdkmanager "extras;android;m2repository"`
+- `./sdkmanager "extras;android;m2repository"`
 
 Installer la bonne plateforme ?
-- `sdkmanager "platforms;android-27"`
+- `./sdkmanager "platforms;android-27"`
 
 Installer le simulateur de mobile :
-- `/sdkmanager "emulator"`
+- `./sdkmanager "emulator"`
 
 Définir la variable ANDROID_HOME :
 - Activer l'affichage des fichiers cachés.
