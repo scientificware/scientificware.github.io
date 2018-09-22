@@ -44,7 +44,7 @@ Tester l'application dans le simulateur de mobile :
 
 Configurer la signature d'un paquet apk :
 - Documentation Gluon [signingconfig](http://docs.gluonhq.com/charm/5.0.1/#_signingconfig)
-- [Documentation Android signature avec Grale](https://developer.android.com/studio/publish/app-signing#gradle-sign)
+- Documentation Android [signature avec Gradle](https://developer.android.com/studio/publish/app-signing#gradle-sign)
 - Dans le fenêtre du projet, ouvrir le fichier `build.gradle` ![screenshot_20180922_115323](https://user-images.githubusercontent.com/19194678/45916110-dd13cb80-be60-11e8-9835-7eb8a7da5d59.png)
 - Inserer les lignes suivantes :
 ```
