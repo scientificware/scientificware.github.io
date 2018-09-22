@@ -43,4 +43,3 @@ Tester l'application dans le simulateur de mobile :
 - Documentation : [Run apps on the Android Emulator](https://developer.android.com/studio/run/emulator).
 
 Configurer la signature d'un paquet apk :
-![](file:///home/scientificware2016/T%C3%A9l%C3%A9chargements/Screenshot_20180922_115323.png)
