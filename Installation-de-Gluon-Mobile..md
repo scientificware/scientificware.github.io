@@ -43,3 +43,19 @@ Tester l'application dans le simulateur de mobile :
 - Documentation : [Run apps on the Android Emulator](https://developer.android.com/studio/run/emulator).
 
 Configurer la signature d'un paquet apk :
+- Documentation Gluon [signingconfig](http://docs.gluonhq.com/charm/5.0.1/#_signingconfig)
+- Dans le fenêtre du projet, ouvrir le fichier `build.gradle` ![screenshot_20180922_115323](https://user-images.githubusercontent.com/19194678/45916110-dd13cb80-be60-11e8-9835-7eb8a7da5d59.png)
+- Inserer les lignes suivantes :
+```
+jfxmobile {
+    android {
+        manifest = 'src/android/AndroidManifest.xml'
+        signingConfig {
+            storeFile file('my.keystore')
+            storePassword 'storePass'
+            keyAlias 'alias'
+            keyPassword 'keyPass'
+        }
+    }
+}
+```
