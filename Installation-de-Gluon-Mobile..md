@@ -42,9 +42,15 @@ PATH=$PATH:$ANDROID_HOME/tools
 Tester l'application dans le simulateur de mobile :
 - Documentation : [Run apps on the Android Emulator](https://developer.android.com/studio/run/emulator).
 
-Configurer la signature d'un paquet apk :
+Configurer la signature d'un paquet apk :+1: 
 - Documentation Gluon [signingconfig](http://docs.gluonhq.com/charm/5.0.1/#_signingconfig)
 - Documentation Android [signature avec Gradle](https://developer.android.com/studio/publish/app-signing#gradle-sign)
+- Documentation Oracle [`keytool`](https://docs.oracle.com/javase/10/tools/keytool.htm#JSWOR-GUID-5990A2E4-78E3-47B7-AE75-6D1826259549)
+- Étapes :
+  - Créer une clé privée avec `keytool` :
+    - Ouvrir un terminal dans le dossier où doit être créé la clé privée.
+    - Saisir `keytool -genkey -v -keystore my-release-key.pkcs12 -alias scientificware -keyalg RSA -keysize 2048 -validity 10000`
+    - Saisir les mots de passe.
 - Dans le fenêtre du projet, ouvrir le fichier `build.gradle` ![screenshot_20180922_115323](https://user-images.githubusercontent.com/19194678/45916110-dd13cb80-be60-11e8-9835-7eb8a7da5d59.png)
 - Inserer les lignes suivantes :
 ```
