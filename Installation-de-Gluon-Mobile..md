@@ -11,6 +11,7 @@ Installation avec Mageia.
 - Documentation : [`sdkmanger`](https://developer.android.com/studio/command-line/sdkmanager)
 - Non documenté : `sdkmanager` a besoin du module `java.xml.bind`
 - Télécharger `sdk-tools-linux.zip`
+- Créer un dossier `android_sdk` (en cas d'autre choix remplacer `android_sdk` par le nouveau nom dans la suite)
 - Editer `sdkmanager` et remplacer :
   -`DEFAULT_JVM_OPTS='"-Dcom.android.sdklib.toolsdir=$APP_HOME"'`
   - Par `DEFAULT_JVM_OPTS='"-Dcom.android.sdklib.toolsdir=$APP_HOME" --add-modules java.xml.bind'`
@@ -35,7 +36,7 @@ Définir la variable ANDROID_HOME :
 - Ouvrir avec write le fichier `.bash_profile`.
 - Ajouter les lignes suivantes :
 ```
-export ANDROID_HOME=$HOME/Téléchargements
+export ANDROID_HOME=$HOME/android_sdk
 PATH=$PATH:$ANDROID_HOME/tools
 ```
 
