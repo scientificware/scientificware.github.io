@@ -67,3 +67,30 @@ jfxmobile {
     }
 }
 ```
+
+Modifinier à nouveau le fichier `build.gradle` pour sélectionner les version du SDK mais aussi les SDK ciblés :
+
+```
+jfxmobile {
+    android {
+        manifest = 'src/android/AndroidManifest.xml'
+        compileSdkVersion = 26
+        minSdkVersion = 26
+        signingConfig {
+            storeFile file('my.keystore')
+            storePassword 'storePass'
+            keyAlias 'alias'
+            keyPassword 'keyPass'
+        }
+    }
+}
+```
+
+Mais apparemment cela ne suffit pas, il faut aussi modifier le fichier `/src/android/AndroidManifest.xml`
+`<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="26"/>`
+
+Ne pas oublier de modifier également dans `/src/android/AndroidManifest.xml` les numéro de version de l'application :
+- android:versionCode s'incrémente de 1.
+- android:versionName est laissé au libre choix du développeur
+`<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.fxmessages" android:versionCode="3" android:versionName="0.00003">`
+
