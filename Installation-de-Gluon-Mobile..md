@@ -90,7 +90,8 @@ Mais apparemment cela ne suffit pas, il faut aussi modifier le fichier `/src/and
 `<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="26"/>`
 
 Ne pas oublier de modifier également dans `/src/android/AndroidManifest.xml` les numéro de version de l'application :
-- android:versionCode s'incrémente de 1.
-- android:versionName est laissé au libre choix du développeur
+- `versionCode` s'incrémente de 1.
+- `versionName` est laissé au libre choix du développeur
+- Ces variable ce trouve dans la ligne suivante :
 `<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.fxmessages" android:versionCode="3" android:versionName="0.00003">`
 
