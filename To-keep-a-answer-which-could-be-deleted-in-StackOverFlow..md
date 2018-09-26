@@ -3,7 +3,7 @@ If you only want to display MathML you can simply use a WebView control.
 
 If you want to edit it ;-) ... you can use a HTMLEditor control.
 Beware, MathML editing doesn't work properly.
-The place where I discuss this : https://github.com/javafxports/openjdk-jfx/issues/118.
+The place where I discuss this : [MathML editing issues in HTMLEditor #118](https://github.com/javafxports/openjdk-jfx/issues/118).
 
 If you have Java, C++ or JavaScript skills then you can try to improve it, too.
 If you are interested in building a community around that, then I'm your Guy.
