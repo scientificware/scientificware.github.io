@@ -10,7 +10,7 @@ If you are interested in building a community around that, then I'm your Guy.
 
 JavaFX/OpenJFX has been supporting MathML since 2011. But a small bug broke it.
 
-This issue was of low priority to the maintainers until 2018 because of very little user interest or feedback. However, thanks new Oracle roadmap about JavaFX, OpenJFX team gave me some help and a review assistance to integrate my patch (https://github.com/javafxports/openjdk-jfx/pull/117)
+This issue was of low priority to the maintainers until 2018 because of very little user interest or feedback. However, thanks new Oracle roadmap about JavaFX, OpenJFX team gave me some help and a review assistance to integrate my patch [JDK-8147476 : Rendering issues with MathML token elements. #117](https://github.com/javafxports/openjdk-jfx/pull/117)
 
 Now, it seems that Oracle will give JavaFX to Gluon (https://gluonhq.com/), so I encourage you to give them feedback to show your interest in MathML support or Math editing and preserve MathML support.
 
