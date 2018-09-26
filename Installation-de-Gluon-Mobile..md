@@ -7,7 +7,7 @@ Documentation [Gluon Mobile Documentation](http://docs.gluonhq.com/charm)
 Installation avec Mageia.
 
 À propos de  `sdkmanager` :
-Il est possible d'utiliser au autre version que celle de la série Java 8. En cas d'utilisation du sdk avec une version de Java supérieure ou égale à 9, il faut modifier le fichier `sdkmanager` de la manière suivante :
+Il est possible d'utiliser le `sdk` avec une autre version que celle de la série Java 8. En cas d'utilisation du `sdk` avec une version de Java supérieure ou égale à 9, il faut modifier le fichier `sdkmanager` de la manière suivante :
 - Documentation : [`sdkmanger`](https://developer.android.com/studio/command-line/sdkmanager)
 - Non documenté : `sdkmanager` a besoin du module `java.xml.bind`
 - Télécharger `sdk-tools-linux.zip`
