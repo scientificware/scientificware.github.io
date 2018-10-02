@@ -23,8 +23,8 @@ Il est possible d'utiliser le `sdk` avec une autre version que celle de la séri
     - `sdkmanager "build-tools;28.0.3"`
 
   - Installer la bonne plateforme ?
-    - `./sdkmanager "platforms;android-28"`
-    - `./sdkmanager "platforms;android-27"`
+    - `sdkmanager "platforms;android-28"`
+    - `sdkmanager "platforms;android-27"`
     - ...
 
 # Installation avec Mageia.
