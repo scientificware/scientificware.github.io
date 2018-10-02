@@ -13,7 +13,7 @@ Il est possible d'utiliser le `sdk` avec une autre version que celle de la séri
    - Télécharger `sdk-tools-windows.zip`
    - Créer un dossier `android_sdk` (en cas d'autre choix remplacer `android_sdk` par le nouveau nom dans la suite)
    - Editer `sdkmanager` et remplacer :
-     -`set DEFAULT_JVM_OPTS="-Dcom.android.sdklib.toolsdir=%~dp0\.."`
+     - `set DEFAULT_JVM_OPTS="-Dcom.android.sdklib.toolsdir=%~dp0\.."`
      - Par `set DEFAULT_JVM_OPTS="-Dcom.android.sdklib.toolsdir=%~dp0\.." --add-modules java.xml.bind`
      - Éclaircir ce point, voir [Five Command Line Options To Hack The Java 9 Module System](https://blog.codefx.org/java/five-command-line-options-to-hack-the-java-9-module-system/)
 
