@@ -23,7 +23,7 @@ Installer la dernière version de build-tools :
 - Dans la liste, choisir le `build-tools` ayant le numéro le plus élevé (28.0.2 le jour de la rédaction de ce tutoriel)
 - `./sdkmanager "build-tools;28.0.2"`
 
-Installer ?
+Installer Android Support Repository
 - `./sdkmanager "extras;android;m2repository"`
 
 Installer la bonne plateforme ?
