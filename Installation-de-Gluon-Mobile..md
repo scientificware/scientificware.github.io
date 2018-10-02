@@ -1,5 +1,6 @@
+Ce qui suit est un tutoriel personnel pour la configuration de mon environnement de développement utilisant Gluon Mobile.
+----
 Documentation [Gluon Mobile Documentation](http://docs.gluonhq.com/charm)
-
 ![](http://docs.gluonhq.com/charm/5.0.1/images/arch/gluon-arch1.png)
 
 ![](http://docs.gluonhq.com/charm/5.0.1/images/arch/gluonmobile-docs-tooling.png)
