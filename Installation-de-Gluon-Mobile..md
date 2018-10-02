@@ -52,6 +52,7 @@ Configurer la signature d'un paquet apk :+1:
     - Ouvrir un terminal dans le dossier où doit être créé la clé privée.
     - Saisir `keytool -genkey -v -keystore my-release-key.pkcs12 -alias scientificware -keyalg RSA -keysize 2048 -validity 10000`
     - Saisir les mots de passe.
+- Cette clé privée sera placée dans le répertoire `certificats` ou `certificat` (à uniformiser) créé dans le répertoire NetBeansProjects.
 - Dans le fenêtre du projet, ouvrir le fichier `build.gradle` ![screenshot_20180922_115323](https://user-images.githubusercontent.com/19194678/45916110-dd13cb80-be60-11e8-9835-7eb8a7da5d59.png)
 - Inserer les lignes suivantes :
 ```
