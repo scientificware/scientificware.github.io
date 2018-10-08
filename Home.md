@@ -2,7 +2,7 @@
 
 # Welcome to the ScientificWare openjdk-jfx Wiki!
 
-[JavaFX 11 community](websitehttps://openjfx.io/)
+[JavaFX 11 community website](https://openjfx.io/)
 
 ![image](https://user-images.githubusercontent.com/19194678/41190255-70c588d8-6bdb-11e8-8e2c-ec95235a391e.png)
 
