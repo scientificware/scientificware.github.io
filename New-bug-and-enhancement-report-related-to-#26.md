@@ -1,3 +1,5 @@
+Texte du rapport de bug [JDK-8210970](https://bugs.openjdk.java.net/browse/JDK-8210970)
+----
 Presently, the patch for JDK-8147476 solves MathML display issues in WebView. Consequently, it solves MathML display in HTMLEditor too.
 
 The MathML rendering is pretty good and equivalent to MathML Rendering with Safari.
@@ -5,6 +7,7 @@ I think that JDK-8089878, which describe only rendering issues, is also solved.
 
 Set HTMLEditor content with the following code displays the quadratic formula as expected in JDK-8089878.
 
+```
 <math display="block"> 
    <mrow> 
       <mi>x</mi> 
@@ -34,11 +37,12 @@ Set HTMLEditor content with the following code displays the quadratic formula as
       </mfrac> 
    </mrow>
 </math>
+```
 
 The remaining problems are related to editing capabilities.
 
 Bugs : 
--Trying to modify a formula will occurate some trouble in your document. For example, try to modifiy the previous formula, by removing 2a from the fraction, this will break your formula.
+- Trying to modify a formula will occurate some trouble in your document. For example, try to modifiy the previous formula, by removing 2a from the fraction, this will break your formula.
 - MathML content is not updated after an insertion. This only occurs when MathML Token are in a table like in the Mozilla MathML Torture Test.
 - Cursor disappears in <mi> token when the identifier name has only one character. If the name of the identifier is longer than 1 character, the cursor appears normaly. This not occurs in <mn> and <mo>.
 - In <mo>, cursor disappears too.
