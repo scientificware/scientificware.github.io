@@ -102,7 +102,7 @@ Ne pas oublier de modifier également dans `/src/android/AndroidManifest.xml` le
 ### Sous Android : Le chargement d'un fichier à partir d'un paquet `.jar` n'est pas pris en charge par le SDK Android.
 Il faut dans ce cas le charger dans une chaine de caractère puis charger cette chaine.
 Cette procédure étant souvent employée sous FXMessages, impose la création d'une méthode s'occupant de cette tâche.
-Dans cette méthode, il est important de définir le codage utilisé pour éviter tout aléa dû à la plateforme d'exécution. C'est ce qui explique la présence de StandardCharsets.UTF-8.
+Dans cette méthode, il est important de définir le codage utilisé pour éviter tout aléa dû à la plateforme d'exécution. C'est ce qui explique la présence de `StandardCharsets.UTF_8`.
 ```
     private void webViewLoad(WebView webView, String resource) {
         StringWriter writer = new StringWriter();
