@@ -99,3 +99,27 @@ Ne pas oublier de modifier également dans `/src/android/AndroidManifest.xml` le
 - Ces variable ce trouve dans la ligne suivante :
 `<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.fxmessages" android:versionCode="3" android:versionName="0.00003">`
 
+### Sous Android : Le chargement d'un fichier à partir d'un paquet `.jar` n'est pas pris en charge par le SDK Android.
+Il faut dans ce cas le charger dans une chaine de caractère puis charger cette chaine.
+```
+StringWriter writer = new StringWriter();
+BufferedReader reader = null;
+try {
+    reader = new BufferedReader(new InputStreamReader(this.getClass().getResourceAsStream("/googleLondonMap.html")));
+    String line = null;
+    while ((line = reader.readLine()) != null) {
+        writer.append(line);
+    }
+} catch (IOException e) {
+    e.printStackTrace();
+} finally {
+    if (reader != null) {
+        try {
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+engine.loadContent(writer.toString());
+```
