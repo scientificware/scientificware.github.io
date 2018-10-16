@@ -101,25 +101,30 @@ Ne pas oublier de modifier également dans `/src/android/AndroidManifest.xml` le
 
 ### Sous Android : Le chargement d'un fichier à partir d'un paquet `.jar` n'est pas pris en charge par le SDK Android.
 Il faut dans ce cas le charger dans une chaine de caractère puis charger cette chaine.
+Cette procédure étant souvent employée sous FXMessages, impose la création d'une méthode s'occupant de cette tâche.
+Dans cette méthode, il est important de définir le codage utilisé pour éviter tout aléa dû à la plateforme d'exécution. C'est ce qui explique la présence de StandardCharsets.UTF-8.
 ```
-StringWriter writer = new StringWriter();
-BufferedReader reader = null;
-try {
-    reader = new BufferedReader(new InputStreamReader(this.getClass().getResourceAsStream("/googleLondonMap.html")));
-    String line = null;
-    while ((line = reader.readLine()) != null) {
-        writer.append(line);
-    }
-} catch (IOException e) {
-    e.printStackTrace();
-} finally {
-    if (reader != null) {
+    private void webViewLoad(WebView webView, String resource) {
+        StringWriter writer = new StringWriter();
+
+        BufferedReader reader = null;
         try {
-            reader.close();
+            reader = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(resource), StandardCharsets.UTF_8));
+            String line = null;
+            while ((line = reader.readLine()) != null) {
+                writer.append(line);
+            }
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            if (reader != null) {
+                try {
+                    reader.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
+        webView.getEngine().loadContent(writer.toString());
     }
-}
-engine.loadContent(writer.toString());
 ```
