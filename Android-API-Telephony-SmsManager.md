@@ -1,0 +1,1 @@
+https://developer.android.com/reference/android/telephony/SmsManager.html#sendMultipartTextMessage(java.lang.String,%20java.lang.String,%20java.util.ArrayList%3Cjava.lang.String%3E,%20java.util.ArrayList%3Candroid.app.PendingIntent%3E,%20java.util.ArrayList%3Candroid.app.PendingIntent%3E)
