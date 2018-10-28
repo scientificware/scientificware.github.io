@@ -16,7 +16,7 @@
     > Variables d'environnement
   - Dans la partie Variables système ou utilisateur cliquer
     > Nouvelle
-  - Puis la nommer `JAVA_HOME`
+  - Puis la nommer `PATH_TO_FX`
   - Renseigner le chemin vers le répertoire d'installation de la valeur d'OpenJDK par défaut.
 ![scsh_nouvelle_variable_systeme](https://user-images.githubusercontent.com/19194678/47615269-246b2880-daad-11e8-9997-f1b445dfe676.png)
 
