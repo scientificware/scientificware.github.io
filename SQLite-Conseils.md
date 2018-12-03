@@ -3,6 +3,8 @@ Ce qui suit est un tutoriel personnel pour l'utilisation de SQLite sous Android 
 
 ![sqlite_logo](https://user-images.githubusercontent.com/19194678/49358751-1f188380-f6d4-11e8-899c-26b148a46cb8.png)
 
+[Site WEB SQLite.org](https://www.sqlite.org/index.html)
+
 The String[] whereArgs contains the arguments to be appended to the whereClause.
 
 For example, you want to make a delete query:
