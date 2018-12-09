@@ -1,0 +1,3 @@
+Cette page regroupe des ressources concernant HTML, CSS, SVG ...
+----
+[Articles de Sara Soueidan](https://www.sarasoueidan.com/blog/accordion-markup/) 
