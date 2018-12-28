@@ -1,6 +1,6 @@
 ![logo_mathmlguard](https://user-images.githubusercontent.com/19194678/41108486-e9aac9e2-6a74-11e8-9055-bf714fa45609.png)
 
-# Welcome to the ScientificWare openjdk-jfx Wiki!
+# Welcome to the ScientificWare Wiki around OpenJDK-OpenJFX developments !
 
 [JavaFX 11 community website](https://openjfx.io/)
 
