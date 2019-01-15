@@ -9,3 +9,6 @@ This tutorial introduces Android application development with the Android Studio
   - Choisir ensuite "Image Asset",
 ![capture_ecran_android_studio_creation_jeu_icones](https://user-images.githubusercontent.com/19194678/51151447-34540680-186b-11e9-8c53-b05c20ec72bd.png)
   - Ajout d'un fond blanc : `FFFFF`
+
+- # Ressources Samsung Internt Developer Hub :
+![image](https://user-images.githubusercontent.com/19194678/51184679-4e2a3380-18d5-11e9-9b62-bf93f5f7acff.png)
