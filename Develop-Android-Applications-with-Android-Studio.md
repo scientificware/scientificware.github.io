@@ -11,4 +11,6 @@ This tutorial introduces Android application development with the Android Studio
   - Ajout d'un fond blanc : `FFFFF`
 
 - # Ressources Samsung Internt Developer Hub :
-![image](https://user-images.githubusercontent.com/19194678/51184679-4e2a3380-18d5-11e9-9b62-bf93f5f7acff.png)
+
+![logo_samsung_internet_developer_hub](https://user-images.githubusercontent.com/19194678/51184832-bd078c80-18d5-11e9-8ec3-ee9ee5e372ef.png)
+[Samsung Internet Dev Hub - Resources for developers Developer Hub](https://hub.samsunginter.net/)
