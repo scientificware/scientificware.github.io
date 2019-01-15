@@ -10,7 +10,7 @@ This tutorial introduces Android application development with the Android Studio
 ![capture_ecran_android_studio_creation_jeu_icones](https://user-images.githubusercontent.com/19194678/51151447-34540680-186b-11e9-8c53-b05c20ec72bd.png)
   - Ajout d'un fond blanc : `FFFFF`
 
-- # Ressources Samsung Internt Developer Hub :
+- # Ressources Samsung Internet Developer Hub :
 
 ![logo_samsung_internet_developer_hub](https://user-images.githubusercontent.com/19194678/51184832-bd078c80-18d5-11e9-8ec3-ee9ee5e372ef.png)
 [Samsung Internet Dev Hub - Resources for developers Developer Hub](https://hub.samsunginter.net/)
