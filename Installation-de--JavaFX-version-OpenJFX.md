@@ -5,6 +5,26 @@
 - Extraire l'archive dans `C:\Program Files\Java`
 - Vérifier la signature avec : `certutil`.
   > Exemple : `certutil -hashfile openjdk-11.0.1_windows-x64_bin.zip SHA256`
+- Utilisation de certutil :
+  ```
+  Utilisation :
+  CertUtil [Options] -hashfile FichierEntrée [AlgorithmeHachage]
+  Générer et afficher le hachage de chiffrement sur un fichier
+  
+  Options :
+    -Unicode          -- Écrire la sortie redirigée au format Unicode
+    -gmt              -- Afficher les heures GMT
+    -seconds          -- Afficher le temps en secondes et millisecondes
+    -v                -- Opération en mode détaillé
+    -privatekey       -- Afficher les données de mot de passe et de clé privée
+    -pin Code PIN             -- Code PIN de la carte à puce
+    -sid WELL_KNOWN_SID_TYPE  -- SID numérique
+              22 -- Système local
+              23 -- Service local
+              24 -- Service réseau
+  
+  Algorithmes de hachage : MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512
+  ```
 - Mettre à jour les chemins :
   - ![scsh_paremetres](https://user-images.githubusercontent.com/19194678/47615031-a8231600-daa9-11e8-845a-22185dd5dcef.png)
   - A partir de l'écran d'accueil (figure ci-dessus) sélectionner successivement :  
