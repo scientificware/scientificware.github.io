@@ -9,8 +9,7 @@
   ```
   Utilisation :
   CertUtil [Options] -hashfile FichierEntrée [AlgorithmeHachage]
-  Générer et afficher le hachage de chiffrement sur
-                         un fichier
+  Générer et afficher le hachage de chiffrement sur un fichier
   
   Options :
     -Unicode          -- Écrire la sortie redirigée au format Unicode
