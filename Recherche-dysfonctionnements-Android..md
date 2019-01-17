@@ -9,6 +9,10 @@ https://developer.android.com/studio/command-line/adb#howadbworks
 L'application adb est dans `android_sdk/platform-tools`
 
 Pour lister tous les périphériques reliés à l'ordinateur saisir : `adb devices`
+- ouvrir une invite de commande et se rendre dans dossier `android_sdk/platform-tools`
+- ou directement dans le terminal d'Android Studio
+- et saisir la commande  
+![android_studio_terminal](https://user-images.githubusercontent.com/19194678/51346686-89c42980-1a9e-11e9-9111-dbaf77e0f615.png)
 
 Les commandes adb :
 ```
