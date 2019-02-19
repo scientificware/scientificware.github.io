@@ -42,3 +42,14 @@
 
 
 # Linux :
+
+Lancer un programme utilisant JavaFX 11 sous Linux, créer un fichier de commandes :
+```
+#!/bin/bash
+rm *.class
+export PATH_TO_FX=/home/scientificware2016/Documents/open_jdk_jfx/javafx-sdk-11.0.2/lib
+javac --module-path $PATH_TO_FX --add-modules=javafx.base,javafx.graphics,javafx.web FXMath.java
+java --module-path $PATH_TO_FX --add-modules=javafx.base,javafx.graphics,javafx.web FXMath
+```
+
+puis lancer la commande `.\ce` à l'invite.
