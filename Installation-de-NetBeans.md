@@ -3,7 +3,7 @@
 Vérification d'intégrité du fichier téléchargé :
 
 # Windows 10 :
-- Sous windows : `certutil.exe -hashfile incubating-netbeans-10.0-bin.zip SHA512`
+- Sous windows : `certutil.exe -hashfile incubating-netbeans-11.0-bin.zip SHA512`
 - Utilisation de certutil :
   ```
   Utilisation :
