@@ -61,4 +61,5 @@ Signalez les problèmes de traduction de « sha512sum » à : <traduc@traduc.
 Full documentation at: <http://www.gnu.org/software/coreutils/sha512sum>
 or available locally via: info '(coreutils) sha2 utilities'
 ```
-Exemple : `sha512sum incubating-netbeans-11.0-bin.zip`
+- Exemple : `sha512sum incubating-netbeans-11.0-bin.zip`
+- ...
