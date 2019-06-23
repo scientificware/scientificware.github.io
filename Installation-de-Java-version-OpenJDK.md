@@ -41,7 +41,7 @@
 ![scsh_nouvelle_variable_systeme](https://user-images.githubusercontent.com/19194678/47615269-246b2880-daad-11e8-9997-f1b445dfe676.png)
 
 
-# Linux :
+# Linux : (Amélioration possible : ajouter un script pour automatiser tous le nouveaux liens)
 - Télécharger la dernière version : à partir du site [jdk.java.net/](http://jdk.java.net/)
 - Vérifier la signature avec : `sha256sum`.
   utilisation de sha256sum :
@@ -101,6 +101,7 @@
                 --altdir <répertoire> --admindir <répertoire>
   ```
   > Exemples :
+  >
   > Voir et modifier la configuration courante pour `java` : `update-alternatives --config java`
   >
   > Ajouter une alternative :
