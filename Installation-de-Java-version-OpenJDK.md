@@ -2,7 +2,6 @@
 
 # Windows 10 :
 - Télécharger la dernière version : à partir du site [jdk.java.net/](http://jdk.java.net/)
-- Extraire l'archive dans `C:\Program Files\Java`
 - Vérifier la signature avec : `certutil`.
   > Exemple : `certutil -hashfile openjdk-11.0.1_windows-x64_bin.zip SHA256`
 - Utilisation de certutil :
@@ -25,6 +24,7 @@
   
   Algorithmes de hachage : MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512
   ```
+- Extraire l'archive dans `C:\Program Files\Java`
 - Mettre à jour les chemins :
   - ![scsh_paremetres](https://user-images.githubusercontent.com/19194678/47615031-a8231600-daa9-11e8-845a-22185dd5dcef.png)
   - A partir de l'écran d'accueil (figure ci-dessus) sélectionner successivement :  
@@ -42,3 +42,67 @@
 
 
 # Linux :
+- Télécharger la dernière version : à partir du site [jdk.java.net/](http://jdk.java.net/)
+- Vérifier la signature avec : `sha256sum`.
+  utilisation de sha256sum :
+  ```
+  Usage: sha1sum [OPTION]... [FILE]...
+  Print or check SHA1 (160-bit) checksums.
+
+  Sans FICHIER ou quand FICHIER est -, lire l'entrée standard.
+  
+    -b, --binary         read in binary mode
+    -c, --check          lire les sommes SHA1 à partir des FICHIERs et les vérifier
+        --tag            créer une somme de contrôle de type BSD
+        --color          print with colors
+    -t, --text           lire en mode texte (par défaut)
+    Note: There is no difference between binary and text mode option on GNU system.
+  
+  The following five options are useful only when verifying checksums:
+        --ignore-missing  don't fail or report status for missing files
+        --quiet          don't print OK for each successfully verified file
+        --status         don't output anything, status code shows success
+        --strict         exit non-zero for improperly formatted checksum lines
+    -w, --warn           warn about improperly formatted checksum lines
+
+        --help     afficher l'aide et quitter
+        --version  afficher des informations de version et quitter
+
+  The sums are computed as described in FIPS-180-1.  When checking, the input
+  should be a former output of this program.  The default mode is to print a
+  line with checksum, a space, a character indicating input mode ('*' for binary,
+  ' ' for text or where binary is insignificant), and name for each FILE.
+  
+  Aide en ligne de GNU coreutils : <http://www.gnu.org/software/coreutils/>
+  Signalez les problèmes de traduction de « sha1sum » à : <traduc@traduc.org>
+  Full documentation at: <http://www.gnu.org/software/coreutils/sha1sum>
+  or available locally via: info '(coreutils) sha1sum invocation'
+  ```
+  > Exemple : `sha512sum incubating-netbeans-11.0-bin.zip`
+- Extraire l'archive dans `\usr\java`
+- Mettre à jour les liens avec : `update-alternatives`
+  ```
+  Alternatives, version 1.10 - Copyright (C) 2001 Red Hat, Inc.
+  Ce produit peut être librement distribué selon les termes de la licence publique GNU (GPL).
+  
+  utilisation : alternatives --install <lien> <nom> <chemin> <priorité>
+                    [--initscript <service>]
+                    [--family <family>]
+                    [--slave <lien> <nom> <chemin>]*
+       alternatives --remove <nom> <chemin>
+       alternatives --auto <nom>
+       alternatives --config <nom>
+       alternatives --display <nom>
+       alternatives --set <nom> <chemin>
+       alternatives --list
+       alternatives --remove-all <name>
+
+  common options: --verbose --test --help --usage --version --keep-missing
+                --altdir <répertoire> --admindir <répertoire>
+  ```
+  > Exemples :
+  > Voir et modifier la configurations courante pour `java` : `update-alternatives --config java`
+  >
+  > Ajouter une alternative :
+  >  - `update-alternatives --install /usr/bin/java java  /usr/java/jdk-12.0.1/bin/java 3000`
+  >  - `update-alternatives --install /usr/bin/javac javac  /usr/java/jdk-12.0.1/bin/javac 3000`
