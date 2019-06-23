@@ -101,7 +101,7 @@
                 --altdir <répertoire> --admindir <répertoire>
   ```
   > Exemples :
-  > Voir et modifier la configurations courante pour `java` : `update-alternatives --config java`
+  > Voir et modifier la configuration courante pour `java` : `update-alternatives --config java`
   >
   > Ajouter une alternative :
   >  - `update-alternatives --install /usr/bin/java java  /usr/java/jdk-12.0.1/bin/java 3000`
