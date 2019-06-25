@@ -5,3 +5,9 @@
 - L'enregistre dans un dossier sous `javacc`.
 - Décompacter le fichier.
 - Dans un shell, lancer la compilantion à l'aide de la commande : `ant`.
+
+# Windows :
+- ...
+
+# Pour apprendre :
+- S'exercer sur les exemples dans [GitHub examples](https://github.com/javacc/javacc/tree/master/examples)
