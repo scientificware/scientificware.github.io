@@ -14,17 +14,7 @@ Affichage des différentes branches du projet : `git branch`
 ```
 `git checkout master`
 
-`git config -l`
-
-`git pull upstream master`
-
-`git push origin master -f`
-
-`git pull upstream develop`
-
-`git push origin develop -f`
-
-`git config --list`
+`git config -l` ou `git config --list`
 
 Exemple :
 
@@ -48,4 +38,14 @@ gui.wmstate=normal
 gui.geometry=1045x475+417+99 221 219
 
 ```
+
+`git pull upstream master`
+
+`git push origin master -f`
+
+`git pull upstream develop`
+
+`git push origin develop -f`
+
+
 
