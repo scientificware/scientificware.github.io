@@ -23,3 +23,29 @@ Affichage des différentes branches du projet : `git branch`
 `git pull upstream develop`
 
 `git push origin develop -f`
+
+`git config --list`
+
+Exemple :
+
+```
+[... openjdk-jfx]$ git config --list
+user.name=Guy Abossolo Foh
+user.email=info@scientificware.com
+merge.tool=vimdiff
+core.editor=kwrite
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/javafxports/openjdk-jfx.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.develop.remote=origin
+branch.develop.merge=refs/heads/develop
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+gui.wmstate=normal
+gui.geometry=1045x475+417+99 221 219
+
+```
+
