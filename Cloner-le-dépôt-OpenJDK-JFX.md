@@ -12,6 +12,10 @@ git remote -v
 origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
 origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
 ````
+- Modifier le lien vers le dépôt dérivé.
+```
+git remote set-url origin https://github.com/scientificware/openjdk-jfx.git
+```
 
 - Specify a new remote upstream repository that will be synced with the fork.
 ```
