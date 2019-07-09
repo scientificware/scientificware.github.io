@@ -1,6 +1,8 @@
+# Windows 10
 
-# Sous Linux
-----
+
+# Linux
+
 - Open a terminal in the folder where you want to clone the repository.
 ![screenshot_20180705_071147](https://user-images.githubusercontent.com/19194678/42303924-dfda33a2-8023-11e8-8ae3-af811c438225.png)
 - Cloner le dépôt maître.
