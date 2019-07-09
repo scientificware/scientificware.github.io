@@ -1,4 +1,4 @@
-Informations concernant la configuation de Mageia 6.0 pour la construction de OpenJDK
+Informations concernant la configuation de Mageia 7.0 pour la construction de OpenJDK
 ----
 
 ![logo_mageia](https://user-images.githubusercontent.com/19194678/49396256-fc6c8600-f738-11e8-8c9c-b1ad4719dec4.png)
