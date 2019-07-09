@@ -78,8 +78,11 @@
   Full documentation at: <http://www.gnu.org/software/coreutils/sha1sum>
   or available locally via: info '(coreutils) sha1sum invocation'
   ```
-  > Exemple : `sha512sum incubating-netbeans-11.0-bin.zip`
+  > Exemple : `sha256sum openjfx-12.0.1_linux-x64_bin-sdk.zip`
 - Extraire l'archive dans `\usr\java`
+  ```
+  unzip -d /usr/java openjfx-12.0.1_linux-x64_bin-sdk.zip
+  ```
 - Mettre à jour les liens avec : `update-alternatives`
   ```
   Alternatives, version 1.10 - Copyright (C) 2001 Red Hat, Inc.
