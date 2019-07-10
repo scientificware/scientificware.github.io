@@ -2,8 +2,10 @@
 # Windows 10 :
 - Télécharger Oracle Virtual Box : [www.virtualbox.org](https://www.virtualbox.org/)
 - Vérifier l'integrité de l'ISO avec : certutils
+  > Exemple : `certutil -hashfile VirtualBox-6.0.8-130520-Win.exe SHA256`
 - Télécharger Mageia OS [www.mageia.org](https://www.mageia.org)
 - Vérifier l'integrité de l'ISO avec : certutils
+  > Exemple : `certutil -hashfile Mageia-7-x86_64.iso SHA256`
 - Configurer la machine virtuelle comme sur l'image ci-dessous :
   - S'assurer que dans l'ordre d'amorçage des média le disque optique précède le disque dur.
   ![capture_ecran_config_machine_virtuelle](https://user-images.githubusercontent.com/19194678/60004885-b7c12180-966d-11e9-9ca5-772d63769880.png)
