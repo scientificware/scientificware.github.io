@@ -1,5 +1,7 @@
 
 # Windows 10 :
+- Télécharger Oracle Virtual Box : [www.virtualbox.org](https://www.virtualbox.org/)
+- Vérifier l'integrité de l'ISO avec : certutils
 - Télécharger Mageia OS [www.mageia.org](https://www.mageia.org)
 - Vérifier l'integrité de l'ISO avec : certutils
 - Configurer la machine virtuelle comme sur l'image ci-dessous :
