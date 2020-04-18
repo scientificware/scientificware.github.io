@@ -11,8 +11,8 @@
 ### Emulateur, problème d'accès à internet.
 Après l'installation du paquet `SDK platform Android 10.0(Q) API Level 29 revision 4` l'émulateur n'avait plus d'accès à internet.
 Le constat a été fait en testant l'application Games.
-- L'application n'accédait pas a internet et renvoyait l'erreur : net::ERR_INTERNET_DISCONNECTED.
-- Les permissions d'accès internet dans l'AndroidManifest.xml étaient bien faites.
+- L'application n'accédait pas a internet et renvoyait l'erreur : `net::ERR_INTERNET_DISCONNECTED`.
+- Les permissions d'accès internet dans l'`AndroidManifest.xml` étaient bien faites.
 
 Comment le problème a-t-il été résolu ? 
 - L'application Games arrive à accéder à internet maintenant avec la version 29 du SDK ! 😊 J'ai fait quelques manip juste pour vérifier certains paramètres mais sans vraiment rien changer :
