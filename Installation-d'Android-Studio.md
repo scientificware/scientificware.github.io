@@ -1,3 +1,13 @@
+### Mise à jour d'`adb` (Android Debug Bridge).
+- Il est arrivé qu'un message indiquant que `adb` était obsolète s'affiche.
+- Apparemment, la mise à jour d'`adb` n'est pas automatique lorsqu'on télécharge un nouveau SDK.
+- File > Settings > Appearance & Behavior > Androit SDK > (onglet) SDK Tools > (coher) Show Package Details.
+- Dans Android SDK Build-Tools cocher le deux dernières versions stables pour le SDK qui a généré l'avertissement d'obsolescence.
+
+### Adapter la barre d'outils.
+- File > Settings > Appearance & Behavior > Menus and Toolbars > Main Tool Bar
+- Ajouter à partir du Menu Principal (Main Menu), les actions Undo, Redo, Find et Replace.
+
 ### Emulateur, problème d'accès à internet.
 Après l'installation du paquet `SDK platform Android 10.0(Q) API Level 29 revision 4` l'émulateur n'avait plus d'accès à internet.
 Le constat a été fait en testant l'application Games.
@@ -7,7 +17,7 @@ Le constat a été fait en testant l'application Games.
 Comment le problème a-t-il été résolu ? 
 - L'application Games arrive à accéder à internet maintenant avec la version 29 du SDK ! 😊 J'ai fait quelques manip juste pour vérifier certains paramètres mais sans vraiment rien changer :
   - Android Studio > File > Settings > System Settings > HTTP Proxy 
-  - Cocher "Auto-detect proxy settings" > Apply > Check connection avec "http://google.fr"
+  - Cocher "Auto-detect proxy settings" > Apply > Check connection avec `http://google.fr`.
   - Relancer l'application Games. C'est là ce moment que j'ai vu que cela fonctionnait.
  - Re-cocher "No Proxy"
 
