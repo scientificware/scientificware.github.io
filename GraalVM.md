@@ -4,7 +4,8 @@ GraalVM is a universal virtual machine for running applications written in JavaS
 
 [SubstrateVM on AArch64](https://github.com/oracle/graal/pull/910)
 
-- Extraire l'archive `graalvm-svm-linux-20.1.0-ea+28.zip` dans le répertoire `/opt`
+- Extraire l'archive zip `graalvm-svm-linux-20.1.0-ea+28.zip` dans le répertoire `/opt`
+- Extraire l'archive tar.gz `tar -xf graalvm-ce-java11-linux-amd64-20.2.0-dev.tar.gz -C /opt`
 ```
 Info-ZIP UnZip 6.1c25-BETA (2018-12-20)
  Copyright (c) 1990-2018 Info-ZIP.  License: unzip --license
