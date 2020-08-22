@@ -1,10 +1,11 @@
 ![logo_javafx](https://user-images.githubusercontent.com/19194678/47615543-82e5d600-dab0-11e8-8fdc-debe74393928.png)
+ 
+# Alternatives :
+Bien que OpenJFX ait été dissocié de OpenJDK, deux fournisseurs continuent à distribuer des paquets contenant les deux SDK.
 
 
-Alternatives :
-
-Azul
-BellSoft
+- [Azul](https://www.azul.com/)
+- [BellSoft](https://bell-sw.com)
 
 # Windows 10 :
 - Télécharger la dernière version : à partir du site [openjfx.io](https://openjfx.io/)
