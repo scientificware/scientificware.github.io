@@ -3,8 +3,10 @@
 # Alternatives :
 Bien que OpenJFX ait été dissocié de OpenJDK, deux fournisseurs continuent à distribuer des paquets contenant les deux SDK.
 
-
+![azul](https://user-images.githubusercontent.com/19194678/90957767-4d358c80-e490-11ea-97ee-55c862422431.png)
 - [Azul](https://www.azul.com/)
+
+![bellsoft](https://user-images.githubusercontent.com/19194678/90957883-c6cd7a80-e490-11ea-9ac2-2fc66edd2c22.png)
 - [BellSoft](https://bell-sw.com)
 
 # Windows 10 :
