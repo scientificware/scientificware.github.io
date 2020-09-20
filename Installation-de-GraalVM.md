@@ -8,7 +8,7 @@ GraalVM is a universal virtual machine for running applications written in JavaS
 
 # Windows 10 :
 - Télécharger la dernière version : à partir du site [graalvm.org/](https://www.graalvm.org/downloads/)
-- Extraire l'archive dans `C:\Program Files\GrallVM`
+- Extraire l'archive dans `C:\Program Files\GraalVM`
 
 # Linux :
 - Extraire l'archive zip `graalvm-svm-linux-20.1.0-ea+28.zip` dans le répertoire `/opt`
