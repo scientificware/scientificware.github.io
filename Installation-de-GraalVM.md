@@ -1,4 +1,4 @@
-[GraalVM](https://www.graalvm.org/)
+[GraalVM Website](https://www.graalvm.org/)
 
 ![logo_graalwm](https://user-images.githubusercontent.com/19194678/93709640-28404200-fb40-11ea-8a2d-c1ff028735d5.png)
 
