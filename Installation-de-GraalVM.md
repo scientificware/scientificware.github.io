@@ -1,9 +1,16 @@
 [GraalVM](https://www.graalvm.org/)
 
+![logo_graalwm](https://user-images.githubusercontent.com/19194678/93709640-28404200-fb40-11ea-8a2d-c1ff028735d5.png)
+
 GraalVM is a universal virtual machine for running applications written in JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala, Kotlin, Clojure, and LLVM-based languages such as C and C++. 
 
 [SubstrateVM on AArch64](https://github.com/oracle/graal/pull/910)
 
+# Windows 10 :
+- Télécharger la dernière version : à partir du site [graalvm.org/](https://www.graalvm.org/downloads/)
+- Extraire l'archive dans `C:\Program Files\GrallVM`
+
+# Linux :
 - Extraire l'archive zip `graalvm-svm-linux-20.1.0-ea+28.zip` dans le répertoire `/opt`
 - Extraire l'archive tar.gz `tar -xf graalvm-ce-java11-linux-amd64-20.2.0-dev.tar.gz -C /opt`
 ```
