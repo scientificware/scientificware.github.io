@@ -5,6 +5,10 @@ Documentation [Gluon Mobile Documentation](http://docs.gluonhq.com/charm)
 
 ![](http://docs.gluonhq.com/charm/5.0.1/images/arch/gluonmobile-docs-tooling.png)
 
+Installation avec Windows 10
+
+Installer le SDK d'Android : [Documentation officielle](https://developer.android.com/studio/projects/install-ndk).
+
 Installation avec Mageia.
 
 À propos de  `sdkmanager` :
