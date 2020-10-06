@@ -5,11 +5,11 @@ Documentation [Gluon Mobile Documentation](http://docs.gluonhq.com/charm)
 
 ![](http://docs.gluonhq.com/charm/5.0.1/images/arch/gluonmobile-docs-tooling.png)
 
-Installation avec Windows 10
+# Windows 10
 
 Installer le SDK d'Android : [Documentation officielle](https://developer.android.com/studio/projects/install-ndk).
 
-Installation avec Mageia.
+# Linux Mageia.
 
 À propos de  `sdkmanager` :
 Il est possible d'utiliser le `sdk` avec une autre version que celle de la série Java 8. En cas d'utilisation du `sdk` avec une version de Java supérieure ou égale à 9, il faut modifier le fichier `sdkmanager` de la manière suivante :
