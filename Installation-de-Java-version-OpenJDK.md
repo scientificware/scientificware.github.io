@@ -3,7 +3,7 @@
 # Windows 10 :
 - Télécharger la dernière version : à partir du site [jdk.java.net/](http://jdk.java.net/)
 - Vérifier la signature avec : `certutil`.
-  > Exemple : `certutil -hashfile openjdk-14.0.2_windows-x64_bin.zip SHA256`
+  > Exemple : `certutil -hashfile openjdk-15_windows-x64_bin.zip SHA256`
 - Utilisation de certutil :
   ```
   Utilisation :
