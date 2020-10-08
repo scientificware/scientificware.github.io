@@ -28,7 +28,7 @@
 - Télécharger la dernière version : à partir du site [Apache NetBeans](https://netbeans.apache.org/)
 - Vérification d'intégrité du fichier téléchargé avec :
   - En ligne de commande : md5sum, sha1sum, sha256sum, sha512sum
-    > Exemple : `sha512sum incubating-netbeans-11.0-bin.zip`
+    > Exemple : `sha512sum Apache-NetBeans-12.1-bin-linux-x64.sh`
     - utilisation de sha512sum :
       ```
       Usage: sha512sum [OPTION]... [FILE]...
