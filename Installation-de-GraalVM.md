@@ -29,7 +29,48 @@ GraalVM is a universal virtual machine for running applications written in JavaS
   - zlib-devel (header files for the C library and zlib),
   - gcc,
   - libstdc++-static.
-  - Installer le gu install native-image
+  - Détail des options pour la commande `./gu`
+    ```
+GraalVM Component Updater v2.0.0
+
+Usage:
+        gu info [-cClLnprstuvV] <param>         prints info about specific component (from file, URL or catalog)
+        gu available [-aClvV] <expr>            lists components available in catalog
+        gu install [-0CcDfiLMnosruvyxY] <param> installs a component package
+        gu list [-clv] <expression>             lists installed components, or components from catalog
+        gu remove [-0DfMxv] <id>                uninstalls a component
+        gu update [-cCnLsux] [<ver>] [<param>]  upgrades to recent GraalVM
+        gu rebuild-images                       rebuilds native images. Use -h for detailed usage
+
+Common options:
+  -A, --auto-yes              say YES or ACCEPT to all questions.
+  -c, --catalog               treat parameters as component IDs from catalog of GraalVM components. This is the default.
+  -C, --custom-catalog <url>  use user-supplied catalog at URL.
+  -e, --debug                 debugging. Prints stacktraces, ...
+  -E, --no-catalog-errors     do not stop, if at least one catalog is working.
+  -h, --help                  print help.
+  -L, --local-file, --file    treat parameters as local filenames of packaged components.
+  -N, --non-interactive       noninteractive mode. Fail when input is required.
+  --show-version              print version information and continue.
+  -u, --url                   interpret parameters as URLs of packaged components.
+  -v, --verbose               be verbose. Prints versions and dependency info.
+  --version                   print version.
+
+Use
+        gu <command> -h
+to get specific help.
+
+Runtime options:
+  --native                                     Run using the native launcher with limited Java access (default).
+  --jvm                                        Run on the Java Virtual Machine with Java access.
+  --vm.[option]                                Pass options to the host VM. To see available options, use '--help:vm'.
+  --log.file=<String>                          Redirect guest languages logging into a given file.
+  --log.[logger].level=<String>                Set language log level to OFF, SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST or ALL.
+  --help                                       Print this help message.
+  --help:vm                                    Print options for the host VM.
+    ```
+  - Pour obtenir les composants supplémentaires de GraalVM installables : `./gu available`
+  - Installer le `gu install native-image`
 -
 ```
 Info-ZIP UnZip 6.1c25-BETA (2018-12-20)
