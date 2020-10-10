@@ -10,14 +10,26 @@ GraalVM is a universal virtual machine for running applications written in JavaS
 - Télécharger la dernière version : à partir du site [graalvm.org/](https://www.graalvm.org/downloads/)
 - Extraire l'archive dans `C:\Program Files\GraalVM`
 
-- Lire https://github.com/gluonhq/client-maven-plugin/
-- Installer Visual Studio puis lancer Visual Studio Installer pour installer les composants nécessaires.
+- Pour compiler en mode natif :
+  - Lire https://github.com/gluonhq/client-maven-plugin/
+  - Installer Visual Studio puis lancer Visual Studio Installer pour installer les composants nécessaires. Aller dans l'onglet, "Composants individuels". Utiliser la zone de recherche pour trouver plus facilement les composants.
+    - MSVC v142 - VS 2019 C++ x64/x86 Build Tools (v14.27)
+    - Prise en charge de C++/CLI pour Build Tools v142 (14.27) 
+    - SDK CRT (runtime C) universel pour Windows
+    - Kit SDK Windows 10 (10.0.19041.0)
 
 - lire https://www.graalvm.org/reference-manual/native-image/ pour la compilation en mode natif.
 
 # Linux :
 - Extraire l'archive zip `graalvm-svm-linux-20.1.0-ea+28.zip` dans le répertoire `/opt`
 - Extraire l'archive tar.gz `tar -xf graalvm-ce-java11-linux-amd64-20.2.0-dev.tar.gz -C /opt`
+- Pour compiler en natif. A partir du centre de contrôle Mageia installer ou vérifier si les paquets suivants sont installés :
+  - glibc-devel,
+  - zlib-devel (header files for the C library and zlib),
+  - gcc,
+  - libstdc++-static.
+  - Installer le gu install native-image
+-
 ```
 Info-ZIP UnZip 6.1c25-BETA (2018-12-20)
  Copyright (c) 1990-2018 Info-ZIP.  License: unzip --license
