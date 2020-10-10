@@ -28,7 +28,6 @@ Prérequis pour suivre le tutoriel : [GraalVM GET STARTED](https://www.graalvm.o
 - lire https://www.graalvm.org/reference-manual/native-image/ pour la compilation en mode natif.
 
 # Linux :
-- Extraire l'archive zip `graalvm-svm-linux-20.1.0-ea+28.zip` dans le répertoire `/opt`
 - Extraire l'archive tar.gz `tar -xf graalvm-ce-java11-linux-amd64-20.2.0-dev.tar.gz -C /opt`
 - Pour compiler en natif. A partir du centre de contrôle Mageia installer ou vérifier si les paquets suivants sont installés :
   - glibc-devel,
@@ -89,7 +88,8 @@ wasm                     20.2.0              GraalWasm           github.com
 ```
   - Pour installer le composant `Native Image` `./gu install native-image`
   - Pour installer le composant `Graal.Python` `./gu install python`
--
+
+- Extraire l'archive zip `graalvm-svm-linux-20.1.0-ea+28.zip` dans le répertoire `/opt`
 ```
 Info-ZIP UnZip 6.1c25-BETA (2018-12-20)
  Copyright (c) 1990-2018 Info-ZIP.  License: unzip --license
