@@ -4,9 +4,10 @@
 
 GraalVM is a universal virtual machine for running applications written in JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala, Kotlin, Clojure, and [LLVM](https://llvm.org/)-based languages such as C and C++. 
 
+[SubstrateVM on AArch64](https://github.com/oracle/graal/pull/910)
+
 Prérequis pour suivre le tutoriel : [GraalVM GET STARTED](https://www.graalvm.org/docs/getting-started/).
 
-[SubstrateVM on AArch64](https://github.com/oracle/graal/pull/910)
 
 # Windows 10 :
 - Télécharger la dernière version : à partir du site [graalvm.org/](https://www.graalvm.org/downloads/)
