@@ -34,7 +34,7 @@ Prérequis pour suivre le tutoriel : [GraalVM GET STARTED](https://www.graalvm.o
   - zlib-devel (header files for the C library and zlib),
   - gcc,
   - libstdc++-static.
-- Détail des options pour la commande `GraalVM Updater` : `./gu`
+- Détail des utilisations et des options pour la commande `GraalVM Updater` : `./gu`
 ```
 GraalVM Component Updater v2.0.0
 
