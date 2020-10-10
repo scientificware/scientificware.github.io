@@ -13,6 +13,8 @@ GraalVM is a universal virtual machine for running applications written in JavaS
 - Lire https://github.com/gluonhq/client-maven-plugin/
 - Installer Visual Studio puis lancer Visual Studio Installer pour installer les composants nécessaires.
 
+- lire https://www.graalvm.org/reference-manual/native-image/ pour la compilation en mode natif.
+
 # Linux :
 - Extraire l'archive zip `graalvm-svm-linux-20.1.0-ea+28.zip` dans le répertoire `/opt`
 - Extraire l'archive tar.gz `tar -xf graalvm-ce-java11-linux-amd64-20.2.0-dev.tar.gz -C /opt`
