@@ -76,7 +76,19 @@ Runtime options:
   --help:vm                                    Print options for the host VM.
 ```
   - Pour obtenir les composants supplémentaires de GraalVM installables : `./gu available`
-  - Installer le `gu install native-image`
+```
+Downloading: Component catalog from www.graalvm.org
+ComponentId              Version             Component name      Origin 
+--------------------------------------------------------------------------------
+llvm-toolchain           20.2.0              LLVM.org toolchain  github.com
+native-image             20.2.0              Native Image        github.com
+python                   20.2.0              Graal.Python        github.com
+R                        20.2.0              FastR               github.com
+ruby                     20.2.0              TruffleRuby         github.com
+wasm                     20.2.0              GraalWasm           github.com
+```
+  - Pour installer le composant `Native Image` `./gu install native-image`
+  - Pour installer le composant `Graal.Python` `./gu install python`
 -
 ```
 Info-ZIP UnZip 6.1c25-BETA (2018-12-20)
