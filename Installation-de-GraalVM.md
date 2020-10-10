@@ -13,6 +13,7 @@ GraalVM is a universal virtual machine for running applications written in JavaS
 - Pour compiler en mode natif :
   - Lire https://github.com/gluonhq/client-maven-plugin/
   - Installer Visual Studio puis lancer Visual Studio Installer pour installer les composants nécessaires. Aller dans l'onglet, "Composants individuels". Utiliser la zone de recherche pour trouver plus facilement les composants.
+    ![visual_studio_installer_ajouts_composants](https://user-images.githubusercontent.com/19194678/95646212-7d7bcd80-0ac6-11eb-9d1b-35d0fefc1cf8.png)
     - MSVC v142 - VS 2019 C++ x64/x86 Build Tools (v14.27)
     - Prise en charge de C++/CLI pour Build Tools v142 (14.27) 
     - SDK CRT (runtime C) universel pour Windows
