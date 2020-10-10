@@ -22,6 +22,9 @@ Prérequis pour suivre le tutoriel : [GraalVM GET STARTED](https://www.graalvm.o
     - SDK CRT (runtime C) universel pour Windows
     - Kit SDK Windows 10 (10.0.19041.0)
 
+  - Pour compléter la variable PATH avec le chemin vers GraalVM : `setx /M PATH "C:\Progra~1\GrallVM\graalvm-ce-java11-20.2.0\bin;%PATH%"`
+  - Pour définir la variable d'environnement JAVA_HOME `setx /M JAVA_HOME "C:\Progra~1\GraalVM\graalvm-ce-java11-20.2.0"`
+
 - lire https://www.graalvm.org/reference-manual/native-image/ pour la compilation en mode natif.
 
 # Linux :
