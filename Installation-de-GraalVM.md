@@ -30,7 +30,7 @@ GraalVM is a universal virtual machine for running applications written in JavaS
   - gcc,
   - libstdc++-static.
   - Détail des options pour la commande `./gu`
-    ```
+```
 GraalVM Component Updater v2.0.0
 
 Usage:
@@ -68,7 +68,7 @@ Runtime options:
   --log.[logger].level=<String>                Set language log level to OFF, SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST or ALL.
   --help                                       Print this help message.
   --help:vm                                    Print options for the host VM.
-    ```
+```
   - Pour obtenir les composants supplémentaires de GraalVM installables : `./gu available`
   - Installer le `gu install native-image`
 -
