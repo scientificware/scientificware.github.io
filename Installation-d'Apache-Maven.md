@@ -5,3 +5,5 @@
 - Vérifier l'intégrité du fichier : `certutil -hashfile apache-maven-3.6.3-bin.zip SHA512`
 - Extraire l'archive dans un dossier, par exemple : `C:\Users\ScientificWare\maven`
 - Mettre à jour la variable PATH (en mode console administrateur) : `setx /M PATH "C:\Users\ScientificWare\maven\apache-maven-3.6.3\bin;%PATH%"`
+
+- Lire [Maven en 5 minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
