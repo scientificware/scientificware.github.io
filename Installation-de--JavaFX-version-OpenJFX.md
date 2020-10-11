@@ -53,6 +53,7 @@ Lancer un programme utilisant JavaFX 15 sous Windows 10
 
 `set PATH_TO_FX=C:\Users\ScientificWare\javafx\javafx-sdk-15\lib`
 `javac --module-path %PATH_TO_FX% --add-modules=javafx.base,javafx.graphics,javafx.web FXStatique.java`
+`java --module-path %PATH_TO_FX% --add-modules=javafx.base,javafx.graphics,javafx.web fxstatique.FXStatique`
 
 # Linux :
 
