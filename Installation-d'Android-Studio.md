@@ -21,7 +21,7 @@ Android Studio
   3. [OPTIONAL] Add "`{installation home}/bin`" to your PATH environment variable so that you may start Android Studio from any directory.
   4. [OPTIONAL] To adjust the value of the JVM heap size, create ~/.AndroidStudio4.0/config/studio.vmoptions (or studio64.vmoptions if using a 64-bit JDK), and set the -Xms and -Xmx parameters. To see how to do this, you can reference the vmoptions file under "{installation home}/bin" as a model.
 
-  - [OPTIONAL] Changing the location of "config" and "system" directories
+- [OPTIONAL] Changing the location of "config" and "system" directories
   ------------------------------------------------------------------------------
   By default, Android Studio stores all your settings under the ~/.AndroidStudio4.0/config directory and uses ~/.AndroidStudio4.0/system as a data cache.
   If you want to change these settings,
