@@ -1,3 +1,9 @@
+# Windows 10 :
+Télécharger Android Studio à partir du site [android.com](https://developer.android.com/studio/)
+
+# Linux :
+Télécharger Android Studio à partir du site [android.com](https://developer.android.com/studio/)
+
 ### Mise à jour d'`adb` (Android Debug Bridge).
 - Il est arrivé qu'un message indiquant que `adb` était obsolète s'affiche.
 - Apparemment, la mise à jour d'`adb` n'est pas automatique lorsqu'on télécharge un nouveau SDK.
