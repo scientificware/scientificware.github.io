@@ -4,4 +4,4 @@
 - Télécharger Maven sur le site d'[Apache Maven](https://maven.apache.org/)
 - Vérifier l'intégrité du fichier : `certutil -hashfile apache-maven-3.6.3-bin.zip SHA512`
 - Extraire l'archive dans un dossier, par exemple : `C:\Users\ScientificWare\maven`
-- Mettre à jour la variable PATH : `setx /M PATH "C:\Users\ScientificWare\maven\apache-maven-3.6.3\bin;%PATH%"`
+- Mettre à jour la variable PATH (en mode console administrateur) : `setx /M PATH "C:\Users\ScientificWare\maven\apache-maven-3.6.3\bin;%PATH%"`
