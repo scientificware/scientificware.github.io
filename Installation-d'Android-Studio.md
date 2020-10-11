@@ -1,3 +1,5 @@
+![logo_android_studio](https://user-images.githubusercontent.com/19194678/95673693-577c2900-0bab-11eb-942c-f52112aa6b56.png)
+
 # Windows 10 :
 Télécharger Android Studio à partir du site [android.com](https://developer.android.com/studio/)
 
