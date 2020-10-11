@@ -49,6 +49,8 @@ Bien que OpenJFX ait été dissocié de OpenJDK, deux fournisseurs continuent à
   - Renseigner le chemin vers le répertoire d'installation de la valeur d'OpenJDK par défaut.
 ![scsh_nouvelle_variable_systeme_jfx](https://user-images.githubusercontent.com/19194678/47615635-79a93900-dab1-11e8-9847-a5d35420e001.png)
 
+Lancer un programme utilisant JavaFX 15 sous Linux
+
 `set PATH_TO_FX=C:\Users\ScientificWare\javafx\javafx-sdk-15\lib`
 `javac --module-path %PATH_TO_FX% --add-modules=javafx.base,javafx.graphics,javafx.web FXStatique.java`
 
