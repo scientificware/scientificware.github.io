@@ -8,7 +8,7 @@ GraalVM is a universal virtual machine for running applications written in JavaS
 
 Prérequis pour suivre le tutoriel : [GraalVM GET STARTED](https://www.graalvm.org/docs/getting-started/).
 
-Limitation du moment :
+Limitation(s) du moment :
 - Pas de compilation native sous Windows ou Linux avec Swing : [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327)
 
 
