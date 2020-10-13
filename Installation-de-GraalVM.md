@@ -27,6 +27,8 @@ Prérequis pour suivre le tutoriel : [GraalVM GET STARTED](https://www.graalvm.o
 
 - lire https://www.graalvm.org/reference-manual/native-image/ pour la compilation en mode natif.
 
+- Exemple d'utilisation : `native-image -jar "Loto_2020.jar"`
+
 # Linux :
 - Extraire l'archive tar.gz `tar -xf graalvm-ce-java11-linux-amd64-20.2.0-dev.tar.gz -C /opt`
 - Pour compiler en natif. A partir du centre de contrôle Mageia installer ou vérifier si les paquets suivants sont installés :
