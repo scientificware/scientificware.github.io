@@ -81,7 +81,6 @@ Runtime options:
 ```
   - Pour avoir la liste des modules déjà installés : `./gu list`
 ```
-[root@localhost bin]# ./gu list
 ComponentId              Version             Component name      Origin 
 --------------------------------------------------------------------------------
 graalvm                  20.2.0-dev          GraalVM Core 
