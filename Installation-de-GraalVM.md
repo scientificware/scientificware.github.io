@@ -83,7 +83,7 @@ Runtime options:
 ```
 ComponentId              Version             Component name      Origin 
 --------------------------------------------------------------------------------
-graalvm                  20.2.0-dev          GraalVM Core 
+graalvm                  20.2.0              GraalVM Core 
 ```
   - Pour obtenir les composants supplémentaires de GraalVM installables : `./gu available`
 ```
