@@ -33,7 +33,7 @@ Limitation(s) du moment :
 - Exemple d'utilisation : `native-image -jar "Loto_2020.jar"`, `native-image HelloWorld`, ...
 
 # Linux :
-- Extraire l'archive tar.gz `tar -xf graalvm-ce-java11-linux-amd64-20.2.0-dev.tar.gz -C /opt`
+- Extraire l'archive tar.gz `tar -xf graalvm-ce-java11-linux-amd64-20.2.0.tar.gz -C /opt`
 - Pour compiler en natif. A partir du centre de contrôle Mageia installer ou vérifier si les paquets suivants sont installés :
   - glibc-devel,
   - zlib-devel (header files for the C library and zlib),
