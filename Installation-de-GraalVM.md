@@ -8,6 +8,24 @@ GraalVM is a universal virtual machine for running applications written in JavaS
 
 Prérequis pour suivre le tutoriel : [GraalVM GET STARTED](https://www.graalvm.org/docs/getting-started/).
 
+Compilation dans le cas d'un package : (Complément par rapport au tutoriel)
+
+Par exemple, pour le programme suivant :
+```
+package hello;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!!");
+        System.exit(0);
+    }
+}
+```
+  Pour compiler : `javac -d . HelloWorld.java`
+  Pour l'exécuter avec la machine virtuelle : `java hello.HelloWorld`
+  Pour construire un executable sur l'hôte : `native-image hello.HelloWorld`
+
 Limitation(s) du moment :
 - Pas de compilation native sous Windows ou Linux avec Swing : [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327)
 
