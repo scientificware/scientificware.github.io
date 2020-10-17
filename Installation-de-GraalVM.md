@@ -22,9 +22,9 @@ public class HelloWorld {
     }
 }
 ```
-  Pour compiler : `javac -d . HelloWorld.java`
-  Pour l'exécuter avec la machine virtuelle : `java hello.HelloWorld`
-  Pour construire un executable sur l'hôte : `native-image hello.HelloWorld`
+  - Pour compiler : `javac -d . HelloWorld.java`
+  - Pour l'exécuter avec la machine virtuelle : `java hello.HelloWorld`
+  - Pour construire un executable sur l'hôte : `native-image hello.HelloWorld`
 
 Limitation(s) du moment :
 - Pas de compilation native sous Windows ou Linux avec Swing : [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327)
