@@ -15,7 +15,7 @@ Utiliser de préférence la version installée avec l'installateur intégré d'A
 - Cocher la case **Android SDK Command-line Tools (latest)**
 ![android_sdk_tools](https://user-images.githubusercontent.com/19194678/96441960-a6106f80-120a-11eb-9595-f7e7bd59b3af.png)
 
-> Ne fonctionne pas ! Le lancement de `sdkmanager` conduit à une erreur.
+> Ce qui suit, ne fonctionne pas ! Le lancement de `sdkmanager` conduit à une erreur. Préférer la méthode précédente.
 > À propos de  `sdkmanager` :
 > Il est possible d'utiliser le `sdk` avec une autre version que celle de la série Java 8. En cas d'utilisation du `sdk` avec une version de Java supérieure ou égale à 9, il faut modifier le fichier `sdkmanager` de la manière suivante :
 > - Documentation : [`sdkmanger`](https://developer.android.com/studio/command-line/sdkmanager)
