@@ -146,6 +146,20 @@ More help: unzip -hh   Examples:
   unzip -fo foo ReadMe # Replace quietly existing ReadMe if archive file newer
 ```
 
+  > Exemples (à exécuter en mode administrateur) :
+  >
+  > Voir et modifier la configuration courante pour `java` : `update-alternatives --config java`
+  >
+  > Ajouter une alternative :
+  > - `update-alternatives --install /usr/bin/java java /opt/graalvm-ce-java11-20.2.0/bin/java 3000`
+  > - `update-alternatives --install /usr/bin/javac javac /opt/graalvm-ce-java11-20.2.0/bin/javac 3000` 
+  >
+  > Enlever une alternative :
+  > - `update-alternatives --remove java /opt/graalvm-ce-java11-20.2.0/bin/java`
+  > - `update-alternatives --remove javac /opt/graalvm-ce-java11-20.2.0/bin/javac`
+  >
+
+
 > Actuellement, Android ne peut être construit que sur Linux OS (ou à partir de Windows WSL2).
 >
 > Le SDK Android est requis pour créer des applications pour la plate-forme Android. Le SDK Android sera téléchargé automatiquement par le plugin client et configuré avec les packages requis.
