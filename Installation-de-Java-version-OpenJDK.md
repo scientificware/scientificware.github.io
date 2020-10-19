@@ -126,14 +126,18 @@
   common options: --verbose --test --help --usage --version --keep-missing
                 --altdir <répertoire> --admindir <répertoire>
   ```
-  > Exemples :
+  > Exemples (à exécuter en mode administrateur) :
   >
   > Voir et modifier la configuration courante pour `java` : `update-alternatives --config java`
   >
   > Ajouter une alternative :
   >  - `update-alternatives --install /usr/bin/java java  /usr/java/jdk-12.0.1/bin/java 3000`
   >  - `update-alternatives --install /usr/bin/javac javac  /usr/java/jdk-12.0.1/bin/javac 3000` 
-  > 
+  >
+  > Enlever une alternative :
+  >  - `update-alternatives --remove java /usr/java/jdk-12.0.1/bin/java`
+  >  - `update-alternatives --remove javac /usr/java/jdk-12.0.1/bin/javac`
+  >
   > Dans une console, cela peut être sur redéfini dans les fichiers `.bashrc` puis `.bash_profile` à l'aide des variables `JAVA_HOME` et `JDK_HOME` :
   > - `export JAVA_HOME=$HOME/Documents/jdk-12.0.1`
   > - `export JDK_HOME=$HOME/Documents/jdk-12.0.1`
