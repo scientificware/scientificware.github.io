@@ -15,7 +15,7 @@ Utiliser de préférence la version installée avec l'installateur intégré d'A
 - Cocher la case **Android SDK Command-line Tools (latest)**
 ![android_sdk_tools](https://user-images.githubusercontent.com/19194678/96441960-a6106f80-120a-11eb-9595-f7e7bd59b3af.png)
 - La commande `sdkmanager` à utiliser est alors dans le dossier `/home/scientificware2016/android_sdk/cmdline-tools/latest/bin`
-- Les commandes décrites après le paragraphe suivant (mis en commentaire) fonctionnent.
+- Les commandes décrites après le paragraphe suivant (mis en commentaire) fonctionnent mais tout peut être fait à partir de l'interface graphique intégrée à Android Studio.
 
 > Ce qui suit, ne fonctionne pas ! Le lancement de `sdkmanager` conduit à une erreur. Préférer la méthode précédente.
 > À propos de  `sdkmanager` :
@@ -31,8 +31,8 @@ Utiliser de préférence la version installée avec l'installateur intégré d'A
 
 Installer la dernière version de build-tools :
 - `./sdkmanager --list`
-- Dans la liste, choisir le `build-tools` ayant le numéro le plus élevé (28.0.2 le jour de la rédaction de ce tutoriel)
-- `./sdkmanager "build-tools;28.0.2"`
+- Dans la liste, choisir le `build-tools` ayant le numéro le plus élevé (30.0.2 le jour de la rédaction de ce tutoriel)
+- `./sdkmanager "build-tools;30.0.2"`
 
 Installer Android Support Repository
 - `./sdkmanager "extras;android;m2repository"`
