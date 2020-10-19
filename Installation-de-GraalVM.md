@@ -150,11 +150,11 @@ More help: unzip -hh   Examples:
 >
 > Le SDK Android est requis pour créer des applications pour la plate-forme Android. Le SDK Android sera téléchargé automatiquement par le plugin client et configuré avec les packages requis.
 >
-> Si vous disposez déjà d'une installation locale du SDK Android, vous pouvez remplacer ce comportement en définissant des variables d'environnement nommées ANDROID_SDK, qui pointe vers le dossier Android SDK sur votre système, et ANDROID_NDK pointant vers le dossier ndk-bundle.
+> Si vous disposez déjà d'une installation locale du SDK Android, vous pouvez remplacer ce comportement en définissant des variables d'environnement nommées ANDROID_SDK, qui pointe vers le dossier Android SDK sur votre système, et ANDROID_NDK pointant vers le dossier ndk-bundle. Elles peuvent être définies directement dans la console ou dans le fichier `.bash_profile` du répertoire utilisateur.
 > - `export ANDROID_SDK=/home/scientificware2016/android_sdk`
 > - `export ANDROID_NDK=/home/scientificware2016/android_sdk/ndk`
 >
-> Veuillez vous assurer que vous avez installé les packages requis suivants:
+> S'assurer que les packages requis suivants sont bien installés :
 > - platform-tools
 > - platforms;android-29
 > - build-tools;29.0.3
