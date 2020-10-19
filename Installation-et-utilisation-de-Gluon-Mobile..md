@@ -31,7 +31,7 @@ Utiliser de préférence la version installée avec l'installateur intégré d'A
 
 Installer la dernière version de build-tools :
 - `./sdkmanager --list`
-- Dans la liste, choisir le `build-tools` ayant le numéro le plus élevé (30.0.2 le jour de la rédaction de ce tutoriel)
+- Dans la liste, choisir le `build-tools` ayant le numéro le plus élevé (30.0.2 le jour de la révision de ce tutoriel : 19/10/2020)
 - `./sdkmanager "build-tools;30.0.2"`
 
 Installer Android Support Repository
