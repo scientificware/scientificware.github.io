@@ -10,17 +10,20 @@ Documentation [Gluon Mobile Documentation](http://docs.gluonhq.com/charm)
 Installer le SDK d'Android : [Documentation officielle](https://developer.android.com/studio/projects/install-ndk).
 
 # Linux Mageia :
+Utiliser de préférence la version installée avec l'installateur intégré d'Android Studio.
+- Cocher la case **Android SDK Command-line Tools (latest)**
 
-À propos de  `sdkmanager` :
-Il est possible d'utiliser le `sdk` avec une autre version que celle de la série Java 8. En cas d'utilisation du `sdk` avec une version de Java supérieure ou égale à 9, il faut modifier le fichier `sdkmanager` de la manière suivante :
-- Documentation : [`sdkmanger`](https://developer.android.com/studio/command-line/sdkmanager)
-- Non documenté : `sdkmanager` a besoin du module `java.xml.bind`
-- Télécharger `sdk-tools-linux.zip`
-- Créer un dossier `android_sdk` (en cas d'autre choix remplacer `android_sdk` par le nouveau nom dans la suite)
-- Editer `sdkmanager` et remplacer :
-  -`DEFAULT_JVM_OPTS='"-Dcom.android.sdklib.toolsdir=$APP_HOME"'`
-  - Par `DEFAULT_JVM_OPTS='"-Dcom.android.sdklib.toolsdir=$APP_HOME" --add-modules java.xml.bind'`
-  - Éclaircir ce point, voir [Five Command Line Options To Hack The Java 9 Module System](https://blog.codefx.org/java/five-command-line-options-to-hack-the-java-9-module-system/)
+> Ne fonctionne pas ! Le lancement de `sdkmanager` conduit à une erreur.
+> À propos de  `sdkmanager` :
+> Il est possible d'utiliser le `sdk` avec une autre version que celle de la série Java 8. En cas d'utilisation du `sdk` avec une version de Java supérieure ou égale à 9, il faut modifier le fichier `sdkmanager` de la manière suivante :
+> - Documentation : [`sdkmanger`](https://developer.android.com/studio/command-line/sdkmanager)
+> - Non documenté : `sdkmanager` a besoin du module `java.xml.bind`
+> - Télécharger `sdk-tools-linux.zip`
+> - Créer un dossier `android_sdk` (en cas d'autre choix remplacer `android_sdk` par le nouveau nom dans la suite)
+> - Editer `sdkmanager` et remplacer :
+>   -`DEFAULT_JVM_OPTS='"-Dcom.android.sdklib.toolsdir=$APP_HOME"'`
+>   - Par `DEFAULT_JVM_OPTS='"-Dcom.android.sdklib.toolsdir=$APP_HOME" --add-modules java.xml.bind'`
+>   - Éclaircir ce point, voir [Five Command Line Options To Hack The Java 9 Module System](https://blog.codefx.org/java/five-command-line-options-to-hack-the-java-9-module-system/)
 
 Installer la dernière version de build-tools :
 - `./sdkmanager --list`
