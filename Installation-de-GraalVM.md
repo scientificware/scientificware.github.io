@@ -159,23 +159,7 @@ More help: unzip -hh   Examples:
 > - platforms;android-29
 > - build-tools;29.0.3
 > - ndk-bundle
-> - extras;android;m2repository
-    
-
-    
-
-    
-
-    
-
-    
-
-    extras;google;m2repository
-
-
-
-
-
-
+> - extras;android;m2repositor
+>
 > Exemple : `unzip -d /opt graalvm-svm-linux-20.1.0-ea+28.zip`
 
