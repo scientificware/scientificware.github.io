@@ -13,6 +13,7 @@ Installer le SDK d'Android : [Documentation officielle](https://developer.androi
 # Linux Mageia :
 Utiliser de préférence la version installée avec l'installateur intégré d'Android Studio.
 - Cocher la case **Android SDK Command-line Tools (latest)**
+![android_sdk_tools](https://user-images.githubusercontent.com/19194678/96441960-a6106f80-120a-11eb-9595-f7e7bd59b3af.png)
 
 > Ne fonctionne pas ! Le lancement de `sdkmanager` conduit à une erreur.
 > À propos de  `sdkmanager` :
