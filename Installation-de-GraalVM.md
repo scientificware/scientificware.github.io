@@ -147,13 +147,33 @@ More help: unzip -hh   Examples:
 ```
 
 > Actuellement, Android ne peut être construit que sur Linux OS (ou à partir de Windows WSL2).
-
+>
 > Le SDK Android est requis pour créer des applications pour la plate-forme Android. Le SDK Android sera téléchargé automatiquement par le plugin client et configuré avec les packages requis.
+>
+> Si vous disposez déjà d'une installation locale du SDK Android, vous pouvez remplacer ce comportement en définissant des variables d'environnement nommées ANDROID_SDK, qui pointe vers le dossier Android SDK sur votre système, et ANDROID_NDK pointant vers le dossier ndk-bundle.
+> - `export ANDROID_SDK=/home/scientificware2016/android_sdk`
+> - `export ANDROID_NDK=/home/scientificware2016/android_sdk/ndk`
+>
+> Veuillez vous assurer que vous avez installé les packages requis suivants:
+> - platform-tools
+> - platforms;android-29
+> - build-tools;29.0.3
+> - ndk-bundle
+> - extras;android;m2repository
+    
 
-> Si vous disposez déjà d'une installation locale du SDK Android, vous pouvez remplacer ce comportement en définissant des variables d'environnement nommées ANDROID_SDK, qui pointe vers le dossier Android SDK sur votre système, et ANDROID_NDK pointant vers le dossier ndk-bundle. Veuillez vous assurer que vous avez installé les packages requis suivants:
+    
 
-> `ANDROID_SDK=/home/scientificware2016/android_sdk`
-> `export ANDROID_NDK=/home/scientificware2016/android_sdk/ndk`
+    
+
+    
+
+    
+
+    extras;google;m2repository
+
+
+
 
 
 
