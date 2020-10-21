@@ -105,7 +105,7 @@
     unzip -p foo | more  # Pipe contents of foo.zip into program "more"
     unzip -fo foo ReadMe # Replace quietly existing ReadMe if archive file newer
   ```
-  > Exemple : `unzip -d /usr/java openjfx-12.0.1_linux-x64_bin-sdk.zip`
+  > Exemple : `unzip -d /usr/java openjfx-15.0.1_linux-x64_bin-sdk.zip`
 - Mettre à jour les liens avec : `update-alternatives`
   ```
   Alternatives, version 1.10 - Copyright (C) 2001 Red Hat, Inc.
