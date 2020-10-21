@@ -78,7 +78,7 @@
   Full documentation at: <http://www.gnu.org/software/coreutils/sha1sum>
   or available locally via: info '(coreutils) sha1sum invocation'
   ```
-  > Exemple : `sha256sum openjfx-12.0.1_linux-x64_bin-sdk.zip`
+  > Exemple : `sha256sum openjdk-15.0.1_linux-x64_bin-sdk.zip`
 - Extraire l'archive dans `\usr\java`
   ```
   Info-ZIP UnZip 6.1c25-BETA (2018-12-20)
