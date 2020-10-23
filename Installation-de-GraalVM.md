@@ -11,7 +11,7 @@ Dans notre plan de marche, nous nous concentrons uniquement sur :
   - Linux (en particulier la distribution Mageia)
   - et Linux/Android.
 
-Pour Mac OS et iOS, nous attendons la mise en place de la nouvelle architecture ARM d'Apple pour investir.
+Pour macOS et iOS, nous attendons la mise en place de la nouvelle architecture ARM d'Apple pour investir.
 
 [GraalVM Website](https://www.graalvm.org/)
 
@@ -613,3 +613,5 @@ More help: unzip -hh   Examples:
   > - ./sdkmanager "extras;google;m2repository" pour install le package `extras;google;m2repository`
   > - ...
 
+# macOS et iOS :
+- ...
