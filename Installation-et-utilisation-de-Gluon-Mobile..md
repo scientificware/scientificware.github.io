@@ -106,10 +106,10 @@ jfxmobile {
 Mais apparemment cela ne suffit pas, il faut aussi modifier le fichier `/src/android/AndroidManifest.xml`
 `<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="26"/>`
 
-Ne pas oublier de modifier également dans `/src/android/AndroidManifest.xml` les numéro de version de l'application :
+Ne pas oublier de modifier également dans `/src/android/AndroidManifest.xml` les numéros de version de l'application :
 - `versionCode` s'incrémente de 1.
 - `versionName` est laissé au libre choix du développeur
-- Ces variable ce trouve dans la ligne suivante :
+- Ces variables se trouvent dans la ligne suivante :
 `<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.fxmessages" android:versionCode="3" android:versionName="0.00003">`
 
 ### Sous Android : Le chargement d'un fichier à partir d'un paquet `.jar` n'est pas pris en charge par le SDK Android.
