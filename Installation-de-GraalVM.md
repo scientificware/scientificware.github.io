@@ -1,3 +1,6 @@
+L'objet de ce document est la mise en place d'une chaîne de production d'applications natives utiliant GraalVM. Nous ciblons uniquement deux plateformes de production. Windows 10 et Linux (en particulier la distribution Mageia).
+----
+
 [GraalVM Website](https://www.graalvm.org/)
 
 ![logo_graalwm](https://user-images.githubusercontent.com/19194678/93709640-28404200-fb40-11ea-8a2d-c1ff028735d5.png)
