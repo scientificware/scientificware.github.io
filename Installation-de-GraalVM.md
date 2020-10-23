@@ -1,9 +1,9 @@
-L'objet de ce document est la mise en place d'une chaîne de production d'applications natives utiliant GraalVM. Nous ciblons uniquement deux plateformes de production. Windows 10 et Linux (en particulier la distribution Mageia).
+![logo_graalwm](https://user-images.githubusercontent.com/19194678/93709640-28404200-fb40-11ea-8a2d-c1ff028735d5.png)
+
+L'objet de ce document est la mise en place d'une chaîne de production d'applications natives utilisant GraalVM. Nous ciblons uniquement deux plateformes de production. Windows 10 et Linux (en particulier la distribution Mageia). Pour Mac OS et iOS, nous attendons la mise en place de la nouvelle architecture ARM d'Apple pour investir.
 ----
 
 [GraalVM Website](https://www.graalvm.org/)
-
-![logo_graalwm](https://user-images.githubusercontent.com/19194678/93709640-28404200-fb40-11ea-8a2d-c1ff028735d5.png)
 
 GraalVM is a universal virtual machine for running applications written in JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala, Kotlin, Clojure, and [LLVM](https://llvm.org/)-based languages such as C and C++. 
 
@@ -30,7 +30,8 @@ public class HelloWorld {
   - Pour construire un executable sur l'hôte : `native-image hello.HelloWorld`
 
 Limitation(s) du moment :
-- Pas de compilation native sous Windows ou Linux avec Swing : [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327)
+- Pas de compilation native sous Windows ou Linux avec awt et donc Swing : Pour plus de détail suivre [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327).
+- L'utilisation d'OpenJFX est possible mais au prix d'une forte augmentation de l'exécutable. Cela tient à la nature même d'OpenJFX dont une large partie du code est du C++ enveloppée d'une fine couche de Java.
 
 
 # Windows 10 :
