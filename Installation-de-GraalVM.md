@@ -42,6 +42,33 @@ public class HelloWorld {
 Limitation(s) du moment :
 - Pas de compilation native sous Windows ou Linux avec awt et donc Swing : Pour plus de détail suivre [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327).
   - Pour plus de renseignement sur la reflexion avec GraalVM : [Reflection Use in Native Images](https://github.com/oracle/graal/blob/master/substratevm/Reflection.md)
+  - Exemple de procédure pour le `HelloAWT.java` programme utilisant l'API `awt` :
+package hello;
+    ```
+    import java.awt.Frame;
+    import java.awt.Label;
+    import java.awt.event.WindowAdapter;
+    import java.awt.event.WindowEvent;
+
+    public class HelloAWT {
+
+        public static void main(String[] args) {
+            Frame f = new Frame( "Hello world!" );
+            Label label = new Label("Hello World", Label.CENTER);
+            f.add(label);
+            f.addWindowListener(
+                new WindowAdapter(){
+                    public void windowClosing( WindowEvent e ){
+                        System.exit( 0 );
+                    }
+                });
+            f.setSize( 300, 100 );
+            f.show();
+            System.out.println("Hello World!!");
+            //System.exit( 0 );
+        }
+    }
+    ```
   - Créer un fichier JSON `rconfig.json` avec le contenu suivant :
     ```
     [
@@ -55,6 +82,8 @@ Limitation(s) du moment :
       }
     ]
     ```
+  - Pour compiler : `javac -d . HelloAWT.java`
+  - Pour l'exécuter avec la machine virtuelle : `java hello.HelloAWT`
   - Il ne reste plus qu'à compiler nativement le bytecode en passant le paramètre `-H:ReflectionConfigurationFiles` à la commande `native-image` : `native-image --no-fallback -H:ReflectionConfigurationFiles=./rconfig.json hello.HelloAWT`
 
 - L'utilisation d'OpenJFX est possible mais au prix d'une forte augmentation de l'exécutable. Cela tient à la nature même d'OpenJFX dont une large partie du code est du C++ enveloppée d'une fine couche de Java.
