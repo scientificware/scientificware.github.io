@@ -39,14 +39,14 @@ public class HelloWorld {
   - Pour l'exécuter avec la machine virtuelle : `java hello.HelloWorld`
   - Pour construire un executable sur l'hôte : `native-image hello.HelloWorld`
 
-Limitation(s) du moment :  
+Limitation(s) du moment :   
 
  Platforme |OpenJFX|API AWT|API Swing|Autres
 ---|---|---|---|---
-Windows 10|:x: |:x: |:heavy_check_mark:| 
-Linux pur|Gluon :heavy_check_mark:| :x:|:heavy_check_mark:| 
-Linux/Android|Gluon :heavy_check_mark:| :x:|:heavy_check_mark: | 
-macOs iOS| | | | 
+Windows 10|:x: |:x: |:x:|:heavy_check_mark:
+Linux pur|Gluon :heavy_check_mark:| :x:|:x:|:heavy_check_mark:
+Linux/Android|Gluon :heavy_check_mark:| :x:|:x:|:heavy_check_mark:
+macOs iOS|:question: |:question: |:question: | :question:
 
 - Pas de compilation native sous Windows ou Linux avec awt et donc Swing : Pour plus de détail suivre [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327).
   - Pour plus de renseignements sur la réflexion avec GraalVM : [Reflection Use in Native Images](https://github.com/oracle/graal/blob/master/substratevm/Reflection.md)
