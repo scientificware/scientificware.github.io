@@ -41,6 +41,22 @@ public class HelloWorld {
 
 Limitation(s) du moment :
 - Pas de compilation native sous Windows ou Linux avec awt et donc Swing : Pour plus de détail suivre [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327).
+  - Créer un fichier JSON rconfig.json avec le contenu suivant :
+    ```
+    [
+      {
+        "name": "sun.awt.windows.WToolkit",
+        "methods": [{"name":"<init>","parameterTypes":[] }]
+      },
+      {
+        "name": "sun.awt.Win32GraphicsEnvironment",
+        "methods": [{"name":"<init>","parameterTypes":[] }]
+      }
+    ]
+    ```
+  - Il ne reste plus qu'à compiler nativement le bytecode en passant le paramètre -H:ReflectionConfigurationFiles à la commande native-image : `native-image --no-fallback -H:ReflectionConfigurationFiles=rconfig.json\`
+    	`-jar build/libs/hello.awtHello.jar awtHello`
+
 - L'utilisation d'OpenJFX est possible mais au prix d'une forte augmentation de l'exécutable. Cela tient à la nature même d'OpenJFX dont une large partie du code est du C++ enveloppée d'une fine couche de Java.
 
 
