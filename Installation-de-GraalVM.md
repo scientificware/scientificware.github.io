@@ -82,7 +82,7 @@ Limitation(s) du moment :
 
 - Exemple d'utilisation : `native-image -jar "Loto_2020.jar"`, `native-image HelloWorld`, ...
 
-# Linux pur:
+# Linux pur :
 - Télécharger la dernière version : à partir du site [graalvm.org/](https://www.graalvm.org/downloads/).
 - Extraire l'archive tar.gz `tar -xf graalvm-ce-java11-linux-amd64-20.2.0.tar.gz -C /opt`
 ```
