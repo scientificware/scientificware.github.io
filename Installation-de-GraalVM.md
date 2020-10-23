@@ -55,7 +55,7 @@ Limitation(s) du moment :
       }
     ]
     ```
-  - Il ne reste plus qu'à compiler nativement le bytecode en passant le paramètre `-H:ReflectionConfigurationFiles` à la commande `native-image` : `native-image --no-fallback -H:ReflectionConfigurationFiles=rconfig.json\ -jar awtHello.jar awtHello`
+  - Il ne reste plus qu'à compiler nativement le bytecode en passant le paramètre `-H:ReflectionConfigurationFiles` à la commande `native-image` : `native-image --no-fallback -H:ReflectionConfigurationFiles=./rconfig.json hello.HelloAWT`
 
 - L'utilisation d'OpenJFX est possible mais au prix d'une forte augmentation de l'exécutable. Cela tient à la nature même d'OpenJFX dont une large partie du code est du C++ enveloppée d'une fine couche de Java.
 
