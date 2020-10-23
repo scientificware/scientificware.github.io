@@ -43,8 +43,10 @@ Limitation(s) du moment :
 - Pas de compilation native sous Windows ou Linux avec awt et donc Swing : Pour plus de détail suivre [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327).
   - Pour plus de renseignement sur la reflexion avec GraalVM : [Reflection Use in Native Images](https://github.com/oracle/graal/blob/master/substratevm/Reflection.md)
   - Exemple de procédure pour le `HelloAWT.java` programme utilisant l'API `awt` :
-package hello;
+
     ```
+    package hello;
+
     import java.awt.Frame;
     import java.awt.Label;
     import java.awt.event.WindowAdapter;
