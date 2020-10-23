@@ -1,6 +1,6 @@
 ![logo_graalwm](https://user-images.githubusercontent.com/19194678/93709640-28404200-fb40-11ea-8a2d-c1ff028735d5.png)
 
-L'objet de ce document est la mise en place d'une chaîne de production d'applications natives utilisant GraalVM. Nous ciblons uniquement deux plateformes de production. Windows 10 et Linux (en particulier la distribution Mageia). Pour Mac OS et iOS, nous attendons la mise en place de la nouvelle architecture ARM d'Apple pour investir.
+L'objet de ce document est la mise en place d'une chaîne de production d'applications natives utilisant GraalVM. Nous ciblons uniquement deux plateformes de production. Windows 10, Linux (en particulier la distribution Mageia) et Linux/Android. Pour Mac OS et iOS, nous attendons la mise en place de la nouvelle architecture ARM d'Apple pour investir.
 ----
 
 [GraalVM Website](https://www.graalvm.org/)
@@ -56,7 +56,9 @@ Limitation(s) du moment :
 
 - Exemple d'utilisation : `native-image -jar "Loto_2020.jar"`, `native-image HelloWorld`, ...
 
-# Linux :
+# Linux pur:
+- Télécharger la dernière version : à partir du site [graalvm.org/](https://www.graalvm.org/downloads/).
+- Extraire l'archive tar.gz `tar -xf graalvm-ce-java11-linux-amd64-20.2.0.tar.gz -C /opt`
 ```
 Utilisation : tar [OPTION...] [FICHIER]...
 GNU 'tar' saves many files together into a single tape or disk archive, and can
@@ -469,7 +471,6 @@ Les valeurs par défaut de *ce* tar sont :
 --format=gnu -f- -b20 --quoting-style=escape --rmt-command=/usr/sbin/rmt
 --rsh-command=/usr/bin/ssh
 ```
-  - Extraire l'archive tar.gz `tar -xf graalvm-ce-java11-linux-amd64-20.2.0.tar.gz -C /opt`
 - Pour compiler en natif. A partir du centre de contrôle Mageia installer ou vérifier si les paquets suivants sont installés :
   - glibc-devel,
   - zlib-devel (header files for the C library and zlib),
@@ -577,7 +578,8 @@ More help: unzip -hh   Examples:
   > - `update-alternatives --remove javac /opt/graalvm-ce-java11-20.2.0/bin/javac`
   >
 
-
+# Linux/Android :
+- Mettre en place un environnement sur Linux OS ou WSL2, comme indiqué précédemment.
 > Actuellement, Android ne peut être construit que sur Linux OS (ou à partir de Windows WSL2).
 >
 > Le SDK Android est requis pour créer des applications pour la plate-forme Android. Le SDK Android sera téléchargé automatiquement par le plugin client et configuré avec les packages requis.
