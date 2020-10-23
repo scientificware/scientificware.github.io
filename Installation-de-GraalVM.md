@@ -1,6 +1,6 @@
 ![logo_graalwm](https://user-images.githubusercontent.com/19194678/93709640-28404200-fb40-11ea-8a2d-c1ff028735d5.png)
 
-L'objet de ce document est la mise en place d'une chaîne de production d'applications natives utilisant GraalVM. Nous ciblons uniquement deux plateformes de production. Windows 10, Linux (en particulier la distribution Mageia) et Linux/Android. Pour Mac OS et iOS, nous attendons la mise en place de la nouvelle architecture ARM d'Apple pour investir.
+L'objet de ce document est la mise en place d'une chaîne de production d'applications natives utilisant GraalVM. Nous ciblons uniquement deux plateformes de production : Windows 10, Linux (en particulier la distribution Mageia). Pour trois plateformes d'exécution Windows 10, Linux (en particulier la distribution Mageia) et Linux/Android. Pour Mac OS et iOS, nous attendons la mise en place de la nouvelle architecture ARM d'Apple pour investir.
 ----
 
 [GraalVM Website](https://www.graalvm.org/)
