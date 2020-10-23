@@ -598,7 +598,7 @@ More help: unzip -hh   Examples:
 > - `export ANDROID_SDK=/home/scientificware2016/android_sdk`
 > - `export ANDROID_NDK=/home/scientificware2016/android_sdk/ndk-bundle`
 >
-> S'assurer que les packages requis suivants sont bien installés, en utilisant '/android_sdk/cmdline-tools/latest/bin/sdkmanager' comme indiqué sur la fiche installation de Gluon Plugin : 
+- S'assurer que les packages requis suivants sont bien installés, en utilisant '/android_sdk/cmdline-tools/latest/bin/sdkmanager' comme indiqué sur la fiche installation de Gluon Plugin : 
 > - platform-tools
 > - platforms;android-29
 > - build-tools;29.0.3
