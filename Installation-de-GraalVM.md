@@ -1,7 +1,17 @@
 ![logo_graalwm](https://user-images.githubusercontent.com/19194678/93709640-28404200-fb40-11ea-8a2d-c1ff028735d5.png)
 
-L'objet de ce document est la mise en place d'une chaîne de production d'applications natives utilisant GraalVM. Nous ciblons uniquement deux plateformes de production : Windows 10, Linux (en particulier la distribution Mageia). Pour trois plateformes d'exécution Windows 10, Linux (en particulier la distribution Mageia) et Linux/Android. Pour Mac OS et iOS, nous attendons la mise en place de la nouvelle architecture ARM d'Apple pour investir.
+L'objet de ce document est la mise en place d'une chaîne de production d'applications natives utilisant GraalVM.
 ----
+Dans notre plan de marche, nous nous concentrons uniquement sur :
+- Deux plateformes de production :
+  - Windows 10,
+  - Linux (en particulier la distribution Mageia). 
+- Pour trois plateformes d'exécution :
+  - Windows 10, 
+  - Linux (en particulier la distribution Mageia)
+  - et Linux/Android.
+
+Pour Mac OS et iOS, nous attendons la mise en place de la nouvelle architecture ARM d'Apple pour investir.
 
 [GraalVM Website](https://www.graalvm.org/)
 
@@ -596,5 +606,9 @@ More help: unzip -hh   Examples:
 > - extras;android;m2repository
 > - extras;google;m2repository
 >
-> Exemple : `unzip -d /opt graalvm-svm-linux-20.1.0-ea+28.zip`
+> Exemple :
+> - `./sdkmanager --version` pour connaître la version de sdkmanager.
+> - `./sdkmanager --list` pour afficher la liste des composants disponibles.
+> - ./sdkmanager "extras;google;m2repository" pour install le package `extras;google;m2repository`
+> - ...
 
