@@ -48,7 +48,10 @@ Linux pur|Gluon :heavy_check_mark:| :x:|:x:|:heavy_check_mark:
 Linux/Android|Gluon :heavy_check_mark:| :x:|:x:|:heavy_check_mark:
 macOs iOS|:question: |:question: |:question: | :question:
 
-- Pas de compilation native sous Windows ou Linux avec awt et donc Swing : Pour plus de détail suivre [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327).
+- Pas de compilation native sous Windows ou Linux avec awt et donc Swing :
+  - Pour plus de détail suivre :
+    - [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327).
+    - Mais aussi [Linker failure: undefined reference to `Java_java_util_prefs_FileSystemPreferences_chmod' #2856](https://github.com/oracle/graal/issues/2856).
   - Pour plus de renseignements sur la réflexion avec GraalVM : [Reflection Use in Native Images](https://github.com/oracle/graal/blob/master/substratevm/Reflection.md)
   - Exemple de procédure pour le `HelloAWT.java` programme utilisant l'API `awt` :
 
