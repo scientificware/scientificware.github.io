@@ -99,7 +99,7 @@ macOs iOS|:question: |:question: |:question: | :question:
   - Pour compiler en détectant les éléments dépréciés : `javac -d . -deprecation  HelloAWT.java`
   - Pour l'exécuter avec la machine virtuelle : `java hello.HelloAWT`
   - Il ne reste plus qu'à compiler nativement le bytecode en passant le paramètre `-H:ReflectionConfigurationFiles` à la commande `native-image` : `native-image --no-fallback -H:ReflectionConfigurationFiles=./rconfig.json hello.HelloAWT`
-  - Pour Windows : `native-image --no-fallback -H:NativeLinkerOption=/opt/graalvm-ce-java11-20.2.0/lib/static/windows-amd64/prefs.dll  hello.HelloAWT`
+  - Pour Windows : `native-image --no-fallback -H:NativeLinkerOption=/opt/graalvm-ce-java11-20.2.0/lib/static/windows-amd64/prefs.lib  hello.HelloAWT`
 - L'utilisation d'OpenJFX est possible mais au prix d'une forte augmentation de l'exécutable. Cela tient à la nature même d'OpenJFX dont une large partie du code est du C++ enveloppée d'une fine couche de Java.
 
 
