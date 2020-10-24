@@ -73,7 +73,7 @@ macOs iOS|:question: |:question: |:question: | :question:
                     }
                 });
             f.setSize( 300, 100 );
-            f.show();
+            f.setVisible(true);
             System.out.println("Hello World!!");
             //System.exit( 0 );
         }
