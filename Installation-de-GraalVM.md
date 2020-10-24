@@ -93,6 +93,7 @@ macOs iOS|:question: |:question: |:question: | :question:
     ]
     ```
   - Pour compiler : `javac -d . HelloAWT.java`
+  - Pour compiler en détectant les éléments dépréciés : `javac -d . -deprecation  HelloAWT.java`
   - Pour l'exécuter avec la machine virtuelle : `java hello.HelloAWT`
   - Il ne reste plus qu'à compiler nativement le bytecode en passant le paramètre `-H:ReflectionConfigurationFiles` à la commande `native-image` : `native-image --no-fallback -H:ReflectionConfigurationFiles=./rconfig.json hello.HelloAWT`
 
