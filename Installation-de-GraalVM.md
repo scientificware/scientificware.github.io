@@ -54,6 +54,7 @@ macOs iOS|:question: |:question: |:question: | :question:
     - Mais aussi [Linker failure: undefined reference to `Java_java_util_prefs_FileSystemPreferences_chmod' #2856](https://github.com/oracle/graal/issues/2856).
   - Pour plus de renseignements sur la réflexion avec GraalVM : [Reflection Use in Native Images](https://github.com/oracle/graal/blob/master/substratevm/Reflection.md)
   - Exemple de procédure pour le `HelloAWT.java` programme utilisant l'API `awt` :
+    - AWT ([Abstract Window ToolKit](https://openjdk.java.net/groups/awt/)).
 
     ```
     package hello;
