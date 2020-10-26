@@ -33,14 +33,16 @@ Installer le SDK d'Android : [Documentation officielle](https://developer.androi
 
 Installer la dernière version de build-tools :
 - `./sdkmanager --list`
-- Dans la liste, choisir le `build-tools` ayant le numéro le plus élevé (30.0.2 le jour de la révision de ce tutoriel : 19/10/2020)
+- Dans la liste, choisir le `build-tools` ayant le numéro le plus élevé (30.0.2 le jour de la révision de ce tutoriel : 19/10/2020) mais aussi la version demandée par le plugin de Gluon (29.0.3)
 - `./sdkmanager "build-tools;30.0.2"`
+- `./sdkmanager "build-tools;29.0.3"`
 
 Installer Android Support Repository
 - `./sdkmanager "extras;android;m2repository"`
 
-Installer la bonne plateforme ?
-- `./sdkmanager "platforms;android-27"`
+Installer les plateformes correspondant aux `build-tools` installés précédemment c'est à dire 30 et 29.
+- `./sdkmanager "platforms;android-30"`
+- `./sdkmanager "platforms;android-29"`
 
 Installer le simulateur de mobile :
 - `./sdkmanager "emulator"`
