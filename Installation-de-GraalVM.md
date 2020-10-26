@@ -101,6 +101,52 @@ macOs iOS|:question: |:question: |:question: | :question:
   - Pour l'exécuter avec la machine virtuelle : `java hello.HelloAWT`
   - Il ne reste plus qu'à compiler nativement le bytecode en passant le paramètre `-H:ReflectionConfigurationFiles` à la commande `native-image` : `native-image --no-fallback -H:ReflectionConfigurationFiles=./rconfig.json hello.HelloAWT`
   - Pour Windows : `native-image --no-fallback -H:NativeLinkerOption=/opt/graalvm-ce-java11-20.2.0/lib/static/windows-amd64/prefs.lib  hello.HelloAWT`
+
+  - Exemple de procédure pour le `HelloSwing.java` programme utilisant l'API `Swing` :
+    - Swing ([openjdk.java.net](https://openjdk.java.net)).
+
+    ```
+    package hello;
+
+    import java.awt.*;
+    import javax.swing.*;
+
+    public class HelloSwing {
+
+        public static void main(String[] args) {
+            EventQueue.invokeLater(() -> {
+                JPanel panel = new JPanel();
+                panel.add(new JLabel("Hello Swing Users !"));
+                panel.setPreferredSize(new Dimension(600,200));
+                JFrame frame = new JFrame("Hello Swing App");
+                frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+                frame.getContentPane().add(panel);
+                frame.pack();
+                frame.setVisible(true);
+            });
+        }
+
+    }
+    ```
+  - Créer un fichier JSON `rconfig.json` avec le contenu suivant :
+    ```
+    [
+      {
+        "name": "sun.awt.windows.WToolkit",
+        "methods": [{"name":"<init>","parameterTypes":[] }]
+      },
+      {
+        "name": "sun.awt.Win32GraphicsEnvironment",
+        "methods": [{"name":"<init>","parameterTypes":[] }]
+      }
+    ]
+    ```
+  - Pour compiler : `javac -d . HelloSwing.java`
+  - Pour compiler en détectant les éléments dépréciés : `javac -d . -deprecation  HelloSwing.java`
+  - Pour l'exécuter avec la machine virtuelle : `java hello.HelloSwing`
+  - Il ne reste plus qu'à compiler nativement le bytecode en passant le paramètre `-H:ReflectionConfigurationFiles` à la commande `native-image` : `native-image --no-fallback -H:ReflectionConfigurationFiles=./rconfig.json hello.HelloSwing`
+  - Pour Windows : `native-image --no-fallback -H:NativeLinkerOption=/opt/graalvm-ce-java11-20.2.0/lib/static/windows-amd64/prefs.lib  hello.HelloSwing`
+
 - L'utilisation d'OpenJFX est possible mais au prix d'une forte augmentation de l'exécutable. Cela tient à la nature même d'OpenJFX dont une large partie du code est du C++ enveloppée d'une fine couche de Java.
 
 
