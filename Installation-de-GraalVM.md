@@ -682,6 +682,7 @@ More help: unzip -hh   Examples:
 ```
 
   > Exemples (à exécuter en mode administrateur) :
+  > Pour modifier la variable d'environnement `PAT`H de manière provisoire dans une console : `export PATH=$PATH:/opt/graalvm-ce-java11-20.2.0/bin`.
   >
   > Voir et modifier la configuration courante pour `java` : `update-alternatives --config java`
   >
