@@ -43,8 +43,8 @@ Limitation(s) du moment :
 
  Platforme |OpenJFX|API AWT|API Swing|Autres
 ---|---|---|---|---
-Windows 10|:x: |:x: |:x:|:heavy_check_mark:
-Linux pur|Gluon :heavy_check_mark:| :x:|:x:|:heavy_check_mark:
+Windows 10|:x: | :heavy_check_mark:20.3.0 | :heavy_check_mark:20.3.0|:heavy_check_mark:
+Linux pur|Gluon :heavy_check_mark:| :heavy_check_mark:20.3.0| :heavy_check_mark:20.3.0|:heavy_check_mark:
 Linux/Android|Gluon :heavy_check_mark:| :x:|:x:|:heavy_check_mark:
 macOs iOS|:question: |:question: |:question: | :question:
 
