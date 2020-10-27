@@ -684,6 +684,36 @@ More help: unzip -hh   Examples:
   > Exemples (à exécuter en mode administrateur) :
   >
   > Pour modifier la variable d'environnement `PATH` de manière provisoire dans une console : `export PATH=$PATH:/opt/graalvm-ce-java11-20.2.0/bin`.
+  > Sinon pour modifier la variable d'environnement `PATH` de manière permanente pour un utilisateur : modifier le fichier .bash_profile du répertoire utilisateur (fichier caché).
+  > ```
+  > # .bash_profile
+  > 
+  > # Get the aliases and functions
+  > if [ -f ~/.bashrc ]; then
+  > 	. ~/.bashrc
+  > fi
+  > 
+  > # User specific environment and startup programs
+  > 
+  > export JAVA_HOME=/opt/graalvm-ce-java11-21.0.0-dev
+  > export JDK_HOME=/opt/graalvm-ce-java11-21.0.0-dev
+  > export ANDROID_HOME=$HOME/android_sdk
+  > 
+  > export ANDROID_SDK=/home/scientificware2016/android_sdk
+  > export ANDROID_NDK=/home/scientificware2016/android_sdk/ndk-bundle
+  > export GRAALVM_HOME=/opt/graalvm-ce-java11-21.0.0-dev
+  > 
+  > PATH=$PATH:$ANDROID_HOME/tools
+  > 
+  > PATH=$PATH:$HOME/bin
+  > PATH=$PATH:/opt/gradle/gradle-5.5/bin
+  > PATH=$PATH:$JAVA_HOME/bin
+  > PATH=$PATH:$JDK_HOME/bin
+  > #PATH=$PATH:/usr/share/java/
+  > 
+  > export PATH
+  > unset USERNAME
+  > ```
   >
   > Voir et modifier la configuration courante pour `java` : `update-alternatives --config java`
   >
