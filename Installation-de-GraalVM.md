@@ -816,3 +816,39 @@ java.vendor|GraalVM Community
 java.vm.version|11.0.8+10-jvmci-20.3-b02
 sun.io.unicode.encoding|UnicodeLittle
 java.class.version|55.0
+
+
+Property Name|Value
+----|----
+java.specification.version|11
+org.graalvm.nativeimage.kind|executable
+sun.jnu.encoding|Cp1252
+java.class.path|EMPTY
+user.name|ScientificWare
+path.separator|;
+java.vm.vendor|Oracle Corporation
+sun.arch.data.model|64
+os.version|6.2
+java.endorsed.dirs|EMPTY
+file.encoding|Cp1252
+java.vendor.url|https://www.graalvm.org/
+java.vm.name|Substrate VM
+java.vm.specification.version|11
+os.name|Windows 10
+java.io.tmpdir|C:\Users\SCIENT~1\AppData\Local\Temp\
+java.version|11.0.8
+user.home|C:\Users\ScientificWare
+user.dir|C:\Users\ScientificWare\Documents\graalvm_projects\hello_awt
+os.arch|amd64
+java.specification.vendor|Oracle Corporation
+java.vm.specification.name|Java Virtual Machine Specification
+org.graalvm.nativeimage.imagecode|runtime
+file.separator|\
+line.separator|\n
+java.library.path|EMPTY
+java.vendor|Oracle Corporation
+java.vm.specification.vendor|Oracle Corporation
+java.specification.name|Java Platform API Specification
+java.vm.version|GraalVM 21.0.0-dev Java 11
+java.ext.dirs|EMPTY
+java.class.version|55.0
