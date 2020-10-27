@@ -754,3 +754,65 @@ More help: unzip -hh   Examples:
 
 # macOS et iOS :
 - ...
+
+----
+
+Property Name|Value
+----|----
+sun.desktop|windows
+awt.toolkit|sun.awt.windows.WToolkit
+java.specification.version|11
+sun.cpu.isalist|amd64
+sun.jnu.encoding|Cp1252
+java.class.path|.
+java.vm.vendor|GraalVM Community
+sun.arch.data.model|64
+user.variant|EMPTY
+java.vendor.url|https://www.graalvm.org/
+user.timezone|EMPTY
+os.name|Windows 10
+java.vm.specification.version|11
+sun.java.launcher|SUN_STANDARD
+user.country|FR
+sun.boot.library.path|C:\Program Files\GraalVM\graalvm-ce-java11-21.0.0-dev\bin
+sun.java.command|test.queryJavaLibPath
+jdk.debug|release
+sun.cpu.endian|little
+user.home|C:\Users\ScientificWare
+user.language|fr
+sun.stderr.encoding|cp850
+java.specification.vendor|Oracle Corporation
+java.version.date|2020-07-14
+java.home|C:\Program Files\GraalVM\graalvm-ce-java11-21.0.0-dev
+file.separator|\
+java.vm.compressedOopsMode|Zero based
+line.separator|\n
+sun.stdout.encoding|cp850
+jdk.internal.vm.ci.enabled|true
+java.specification.name|Java Platform API Specification
+java.vm.specification.vendor|Oracle Corporation
+java.awt.graphicsenv|sun.awt.Win32GraphicsEnvironment
+user.script|EMPTY
+sun.management.compiler|HotSpot 64-Bit Tiered Compilers
+java.runtime.version|11.0.8+10-jvmci-20.3-b02
+user.name|ScientificWare
+path.separator|;
+os.version|10.0
+java.runtime.name|OpenJDK Runtime Environment
+file.encoding|Cp1252
+java.vm.name|OpenJDK 64-Bit Server VM
+java.vendor.version|GraalVM CE 21.0.0-dev
+java.vendor.url.bug|https://github.com/oracle/graal/issues
+java.io.tmpdir|C:\Users\SCIENT~1\AppData\Local\Temp\
+java.version|11.0.8
+user.dir|C:\Users\ScientificWare\Documents\graalvm_projects\hello_awt
+os.arch|amd64
+java.vm.specification.name|Java Virtual Machine Specification
+java.awt.printerjob|sun.awt.windows.WPrinterJob
+sun.os.patch.level|EMPTY
+java.library.path|C:\Program Files\GraalVM\graalvm-ce-java11-21.0.0-dev\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\\Extensions\Microsoft\IntelliCode\CLI;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64\;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\;C:\cygwin64\bin;C:\Users\ScientificWare\maven\apache-maven-3.6.3\bin;C:\Program Files\GraalVM\graalvm-ce-java11-21.0.0-dev;C:\Program Files\GraalVM\graalvm-ce-java11-21.0.0-dev\bin;C:\windows;C:\windows\system32;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\ScientificWare\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx86\x86\cl.exe;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx86\x86;C:\Program Files (x86)\WiX Toolset v3.11\bin;C:\Program Files\Git\cmd;C:\Users\ScientificWare\AppData\Local\Microsoft\WindowsApps;C:\Program Files\GraalVM\graalvm-ce-java11-21.0.0-dev\bin;C:\Program Files\GraalVM\graalvm-ce-java11-21.0.0-dev\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx86\x86\cl.exe;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx86\x86;C:\Program Files (x86)\WiX Toolset v3.11\bin;.
+java.vm.info|mixed mode, sharing
+java.vendor|GraalVM Community
+java.vm.version|11.0.8+10-jvmci-20.3-b02
+sun.io.unicode.encoding|UnicodeLittle
+java.class.version|55.0
