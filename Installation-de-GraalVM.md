@@ -129,18 +129,33 @@ macOs iOS|:question: |:question: |:question: | :question:
     }
     ```
   - Créer un fichier JSON `rconfig.json` avec le contenu suivant :
-    ```
-    [
-      {
-        "name": "sun.awt.windows.WToolkit",
-        "methods": [{"name":"<init>","parameterTypes":[] }]
-      },
-      {
-        "name": "sun.awt.Win32GraphicsEnvironment",
-        "methods": [{"name":"<init>","parameterTypes":[] }]
-      }
-    ]
-    ```
+    - Pour Windows :
+      ```
+      [
+        {
+          "name": "sun.awt.windows.WToolkit",
+          "methods": [{"name":"<init>","parameterTypes":[] }]
+        },
+        {
+          "name": "sun.awt.Win32GraphicsEnvironment",
+          "methods": [{"name":"<init>","parameterTypes":[] }]
+        }
+      ]
+      ```
+    - Pour Linux :
+      ```
+      [
+        {
+          "name": "sun.awt.X11.XToolkit",
+          "methods": [{"name":"<init>","parameterTypes":[] }]
+        },
+        {
+          "name": "sun.awt.X11GraphicsEnvironment",
+          "methods": [{"name":"<init>","parameterTypes":[] }]
+        }
+      ] 
+      ```
+
   - Pour compiler : `javac -d . HelloSwing.java`
   - Pour compiler en détectant les éléments dépréciés : `javac -d . -deprecation  HelloSwing.java`
   - Pour l'exécuter avec la machine virtuelle : `java hello.HelloSwing`
