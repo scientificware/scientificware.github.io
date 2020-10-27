@@ -757,6 +757,38 @@ More help: unzip -hh   Examples:
 
 ----
 
+```
+import java.awt.Label;
+import java.util.Properties;
+import java.util.Enumeration;
+
+public class queryJavaLibPath {
+
+    public static void main(String[] args) {
+        //System.out.println("java.library.path : \"" + System.getProperty("java.library.path") + "\"");
+        
+
+        Properties p = System.getProperties();
+        Enumeration keys = p.keys();
+        System.out.println("Property Name|Value");
+	System.out.println("----|----");
+        while (keys.hasMoreElements()) {
+            String key = (String) keys.nextElement();
+            String value = (String) p.get(key);
+	    if(key.equals("line.separator")) value ="\\n";
+            if(value.length()==0) value = "EMPTY";
+            System.out.println(key + "|" + value);
+        }
+
+
+	System.exit( 0 );
+
+    }
+}
+```
+
+
+
 Property Name|Value
 ----|----
 sun.desktop|windows
