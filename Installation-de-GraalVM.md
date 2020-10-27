@@ -684,6 +684,7 @@ More help: unzip -hh   Examples:
   > Exemples (à exécuter en mode administrateur) :
   >
   > Pour modifier la variable d'environnement `PATH` de manière provisoire dans une console : `export PATH=$PATH:/opt/graalvm-ce-java11-20.2.0/bin`.
+  > 
   > Sinon pour modifier la variable d'environnement `PATH` de manière permanente pour un utilisateur : modifier le fichier .bash_profile du répertoire utilisateur (fichier caché).
   > ```
   > # .bash_profile
