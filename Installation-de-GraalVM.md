@@ -758,6 +758,9 @@ More help: unzip -hh   Examples:
 ----
 
 ```
+package test;
+
+import java.awt.Frame;
 import java.awt.Label;
 import java.util.Properties;
 import java.util.Enumeration;
