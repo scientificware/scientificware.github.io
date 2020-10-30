@@ -27,8 +27,8 @@
 - Extraire l'archive dans `C:\Program Files\Java`
 - Mettre à jour les chemins :
   - Depuis une console de commande : 
-    - `setx /M PATH "C:\Program Files\Java\..\bin;%PATH%"`
-    - `setx /M JAVA_HOME "C:\Program Files\Java\.."`
+    - `setx /M PATH "C:\Program Files\Java\jdk-15.0.1\bin;%PATH%"`
+    - `setx /M JAVA_HOME "C:\Program Files\Java\jdk-15.0.1"`
   - Depuis l'interface graphique de Windows :
     - ![scsh_paremetres](https://user-images.githubusercontent.com/19194678/47615031-a8231600-daa9-11e8-845a-22185dd5dcef.png)
     - A partir de l'écran d'accueil (figure ci-dessus) sélectionner successivement :  
