@@ -46,7 +46,7 @@
       ![scsh_nouvelle_variable_systeme](https://user-images.githubusercontent.com/19194678/47615269-246b2880-daad-11e8-9997-f1b445dfe676.png)
 
 
-# Linux : (Amélioration possible : ajouter un script pour automatiser tous le nouveaux liens)
+# Linux : (Amélioration possible : ajouter un script pour automatiser tous les nouveaux liens)
 - Télécharger la dernière version : à partir du site [jdk.java.net/](http://jdk.java.net/)
 - Vérifier la signature avec : `sha256sum`.
   > Exemple : `sha256sum openjdk-15.0.1_linux-x64_bin.tar.gz`
