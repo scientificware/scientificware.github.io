@@ -26,19 +26,24 @@
   ```
 - Extraire l'archive dans `C:\Program Files\Java`
 - Mettre à jour les chemins :
-  - ![scsh_paremetres](https://user-images.githubusercontent.com/19194678/47615031-a8231600-daa9-11e8-845a-22185dd5dcef.png)
-  - A partir de l'écran d'accueil (figure ci-dessus) sélectionner successivement :  
-    > Paramètres
-    > Sytème
-    > Informations système
-    > Infomation système
-    > Paramètres système avancés
-    > Variables d'environnement
-  - Dans la partie Variables système ou utilisateur cliquer
-    > Nouvelle
-  - Puis la nommer `JAVA_HOME`
-  - Renseigner le chemin vers le répertoire d'installation de la valeur d'OpenJDK par défaut.
-![scsh_nouvelle_variable_systeme](https://user-images.githubusercontent.com/19194678/47615269-246b2880-daad-11e8-9997-f1b445dfe676.png)
+  - Depuis une console de commande : 
+    - `setx /M PATH "C:\Program Files\Java\..\bin;%PATH%"`
+    - `setx /M JAVA_HOME "C:\Program Files\Java\.."`
+  - Depuis l'interface graphique de Windows :
+    - ![scsh_paremetres](https://user-images.githubusercontent.com/19194678/47615031-a8231600-daa9-11e8-845a-22185dd5dcef.png)
+    - A partir de l'écran d'accueil (figure ci-dessus) sélectionner successivement :  
+      > Paramètres
+      > Sytème
+      > Informations système
+      > Infomation système
+      > Paramètres système avancés
+      > Variables d'environnement
+    - Dans la partie Variables système ou utilisateur cliquer
+      > Nouvelle
+    - Puis la nommer `JAVA_HOME`
+    - Renseigner le chemin vers le répertoire d'installation de la valeur d'OpenJDK par défaut.
+
+      ![scsh_nouvelle_variable_systeme](https://user-images.githubusercontent.com/19194678/47615269-246b2880-daad-11e8-9997-f1b445dfe676.png)
 
 
 # Linux : (Amélioration possible : ajouter un script pour automatiser tous le nouveaux liens)
