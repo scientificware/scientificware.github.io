@@ -9,3 +9,4 @@ Pour le modifier :
 - Pour vérifier si la modification a bien eu lieu. 
   - Lancer un PowerShell (Dans l'explorateur de fichier, Menu > Fichier).
   - Puis saisir la commande `[System.Text.Encoding]::Default`
+  ![windows10_check_utf_8](https://user-images.githubusercontent.com/19194678/97777402-42723480-1b70-11eb-9795-89b6940734a1.png)
