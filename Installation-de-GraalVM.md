@@ -52,10 +52,10 @@ macOs iOS|:question: |:question: |:question: | :question:
   - Pour plus de détail suivre :
     - [[native-image] Windows with a swing application](https://github.com/oracle/graal/issues/1327).
     - Mais aussi [Linker failure: undefined reference to `Java_java_util_prefs_FileSystemPreferences_chmod' #2856](https://github.com/oracle/graal/issues/2856).
-    - Découverte d'une erreur de connecteur logique dans deux classes et signalement à l'équipe de développement :
+    - Découverte d'une erreur de connecteur logique dans deux classes de GraalVM et signalement à l'équipe de développement :
       - Les classes : [NativeImage.java](https://github.com/oracle/graal/blob/5d2997a9ac8cafdfc6b5c316532165839ad7d1af/substratevm/src/com.oracle.svm.core/src/com/oracle/svm/core/jdk/SystemPropertiesSupport.java#L114) et [SystemPropertiesSupport.java](https://github.com/oracle/graal/blob/5d2997a9ac8cafdfc6b5c316532165839ad7d1af/substratevm/src/com.oracle.svm.core/src/com/oracle/svm/core/jdk/SystemPropertiesSupport.java#L114)
       - Signalement : [Rapport](https://github.com/oracle/graal/commit/5d2997a9ac8cafdfc6b5c316532165839ad7d1af#commitcomment-43752175)
-      - La notification de modification : [Fixed typo in conditions #2953](https://github.com/oracle/graal/pull/2953)
+      - La notification de modification : [Fixed typo in conditions #2953](https://github.com/oracle/graal/pull/2953) et les [commits](https://github.com/oracle/graal/pull/2953/commits/26448728442c94f406cb41c34e02cdbe0b170cbe)
   - Pour plus de renseignements sur la réflexion avec GraalVM : [Reflection Use in Native Images](https://github.com/oracle/graal/blob/master/substratevm/Reflection.md)
   - Exemple de procédure pour le `HelloAWT.java` programme utilisant l'API `awt` :
     - AWT ([Abstract Window ToolKit](https://openjdk.java.net/groups/awt/)).
