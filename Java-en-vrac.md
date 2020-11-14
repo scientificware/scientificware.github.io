@@ -1,9 +1,9 @@
 # Types entiers
 
 3 Systèmes de numération :
-- binaire, sous Java le nombre binaire 10001101 est saisi avec la notation 0b10001101.
-- décimale, 
-- et hexadécimale, sous Java le nombre hexadécimal ff est saisi avec la notation 0xff.
+- binaire, sous Java le nombre binaire `10001101` est saisi avec la notation `0b10001101`.
+- décimale, aucun marqueur, c'est un nombre en base 10.
+- et hexadécimale, sous Java le nombre hexadécimal `ff` est saisi avec la notation `0xff`.
 
 Les différents types entiers se distinguent par la taille de leur représentation.
 - `byte` : (1 octet ) entiers compris entre -128 et +127 (-2^7 et 2^7-1)
