@@ -66,3 +66,6 @@ g ==> 65421
 jshell> int g = (int)(0b11111111111111111111111110001101 & 0xffff)
 g ==> 65421
 ```
+
+# Opérateurs Bit à Bit et Opérateurs logiques
+Voir [Opérateurs Bit à Bit et Logiques](https://docs.oracle.com/javase/specs/jls/se15/jls15.pdf#%5B%7B%22num%22%3A6687%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C72%2C251%2Cnull%5D)
