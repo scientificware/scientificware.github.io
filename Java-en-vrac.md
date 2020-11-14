@@ -44,3 +44,15 @@ g ==> 141
 jshell> Integer.toBinaryString(141)
 $79 ==> "10001101"
 ```
+
+Puisque `255`, `0b11111111` et `0xff` représentent le même nombre, nous obtenons les mêmes résultats avec les commandes suivantes :
+```
+jshell> 0b11111111
+$81 ==> 255
+jshell> int g = (int)0b11111111111111111111111110001101 & 255
+g ==> 141
+jshell> 0xff
+$83 ==> 255
+jshell> int g = (int)0b11111111111111111111111110001101 & 0xff
+g ==> 141
+```
