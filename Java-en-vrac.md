@@ -1,3 +1,5 @@
+[[TOC]]
+
 # Types entiers
 
 3 Systèmes de numération :
