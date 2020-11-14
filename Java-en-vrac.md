@@ -56,3 +56,13 @@ $83 ==> 255
 jshell> int g = (int)0b11111111111111111111111110001101 & 0xff
 g ==> 141
 ```
+
+Sur 16 bits, nous pourrions utiliser les commandes suivantes, puisque `65535`, `0b1111111111111111` et `0xffff` représentent le même nombre mais dans des bases différentes :
+```
+jshell> int g = (int)0b11111111111111111111111110001101 & 0b1111111111111111
+g ==> 65421
+jshell> int g = (int)(0b11111111111111111111111110001101 & 65535)
+g ==> 65421
+jshell> int g = (int)(0b11111111111111111111111110001101 & 0xffff)
+g ==> 65421
+```
