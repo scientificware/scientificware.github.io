@@ -69,3 +69,13 @@ g ==> 65421
 
 # Opérateurs Bit à Bit et Opérateurs logiques
 Voir [Opérateurs Bit à Bit et Logiques](https://docs.oracle.com/javase/specs/jls/se15/jls15.pdf#%5B%7B%22num%22%3A6687%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C72%2C251%2Cnull%5D)
+
+- `a|=0b1` est équivalent à `a = a + 0b1`
+```
+jshell> int a = 0b100
+a ==> 4
+jshell> a|=0b1
+$5 ==> 5
+jshell> Integer.toBinaryString(a)
+$6 ==> "101"
+```
