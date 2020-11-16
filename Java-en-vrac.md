@@ -12,7 +12,7 @@ Les différents types entiers se distinguent par la taille de leur représentati
 - `long` : (8 octets ) entiers compris entre -9 223 372 036 854 775 808 et +9 223 372 036 854 775 807 (-2^63 et 2^63-1)
 
 Attention, ne pas confondre la valeur décimale, hexadécimale ou binaire avec l'objet qu'il permet de représenter. Cela peut-être le cas si l'objet à représenter est justement un nombre. Examinons par exemple le codage de entiers relatifs. Mais nous pouvons aussi coder des entiers naturels. Attention, cela dépend de la version de Java :
-- Bien que ce ne soit pas une construction de base dans les Java version pré 8 . En effet, il n'est pas possible par défaut sous Java de coder les entiers naturel de ⟦0;255⟧ avec 1 octet, par défaut la valeur décimale sera un entier relatif de ⟦-128;127⟧. D'une manière générale, Java ne code que des nombres relatifs. Par contre, il est possible de récupérer l'entier naturel codé avec l'octet en le transtypant dans un `short` ou un `int` puis en tronquant l'entier relatif sur les 8 bits bas à l'aide de l'opérateur logique bit à bit (bitwise) `&` et des nombres binaires `11111111`. Le raisonnement serait le même avec le codage sur 16 bits des entiers naturels de ⟦0;65 535⟧. Il faut transtyper dans un `int` puis tronquant sur 8 bits avec `&` et `11111111 11111111`.
+- Bien que ce ne soit pas une construction de base dans les Java version pré 8 . En effet, il n'est pas possible par défaut sous Java de coder les entiers naturel de ⟦0;255⟧ avec 1 octet, par défaut la valeur décimale sera un entier relatif de ⟦-128;127⟧. D'une manière générale, Java ne code que des nombres relatifs. Par contre, il est possible de récupérer l'entier naturel codé avec l'octet en le transtypant dans un `short` ou un `int` puis en tronquant l'entier relatif sur les 8 bits bas à l'aide de l'opérateur logique bit à bit (bitwise) `&` et des nombres binaires `11111111`. Le raisonnement serait le même avec le codage sur 16 bits des entiers naturels de ⟦0;65 535⟧. Il faut transtyper dans un `int` puis tronquant sur 8 bits avec `&` et `11111111 11111111` ou leur valeurs décimale ou hexadécimale `255` ou `ff` et `65 535` ou `ffff`.
 - A partir de Java 8. Le transtypage sur un `int` ou `long` est fournie de base avec les méthodes statiques `Byte.toUnsignedInt(byte b)` et `Byte.toUnsignedLong(byte b)`.
 0 1 2 3
 0 1 10 11
@@ -69,6 +69,11 @@ jshell> int g = (int)(0b11111111111111111111111110001101 & 65535)
 g ==> 65421
 jshell> int g = (int)(0b11111111111111111111111110001101 & 0xffff)
 g ==> 65421
+```
+A partir de Java 8
+```
+jshell> Byte.toUnsignedInt((byte)0b10001101)
+$13 ==> 141
 ```
 
 # Opérateurs Bit à Bit et Opérateurs logiques
