@@ -16,7 +16,7 @@ Attention, ne pas confondre la valeur décimale, hexadécimale ou binaire avec l
 - A partir de Java 8. Le transtypage sur un `int` ou `long` est fournie de base avec les méthodes statiques
   - `Byte.toUnsignedInt(byte b)` et `Byte.toUnsignedLong(byte b)`
   - mais aussi `Short.toUnsignedInt(short s)` et `Short.toUnsignedLong(short s)`
-  - puis `Integer.toUnsignedInt(int i)` et `Integer.toUnsignedLong(int i)`.
+  - puis `Integer.toUnsignedLong(int i)`.
 
 0 1 2 3
 0 1 10 11
