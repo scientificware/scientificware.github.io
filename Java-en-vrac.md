@@ -19,7 +19,7 @@ La notation binaire permet de coder des entiers relatifs. Par exemple, si le nom
 - les nombres ⟦-N;-1⟧ sont codés à partir de 2N-1 à rebours avec -1 associé à 2N-1,
 - et les nombres ⟦0;N-1⟧ sont codés normalement, avec naturellement 0 associé à 0.
 
-Petits passages délicats entre les différents types.
+Illustration de petits passages délicats entre les différents types.
 - Sur 8 bits, c'est à dire au format `byte`, `-115` est codé par **10001101** en binaire. Le bit de gauche codant le signe : `0` pour `+` et `1` pour `-`.
 - Sur 16 bits, c'est dire au format `short`, `-115` est codé par 11111111 **10001101** en binaire. Le bit de gauche codant le signe : `0` pour `+` et `1` pour `-`. pour obtenir l'écriture 16 bits à partir de l'écriture 8 bits, il suffit de compléter l'écriture littérale 8 bits à gauche avec huit 1.
 - Sur 32 bits, c'est à dire au format `int`, `-115` est codé par 11111111 11111111 11111111 **10001101** en binaire. Comme précédemment, on complète l'écriture 8 bits à gauche avec vingt-quatre 1.
