@@ -11,9 +11,11 @@ Les différents types entiers se distinguent par la taille de leur représentati
 - `int` : (4 octets ) entiers compris entre -2 147 483 648 et +2 147 483 647 (-2^31 et 2^31-1)
 - `long` : (8 octets ) entiers compris entre -9 223 372 036 854 775 808 et +9 223 372 036 854 775 807 (-2^63 et 2^63-1)
 
-Attention, ne pas confondre la valeur décimale, hexadécimale ou binaire avec l'objet qu'il permet de représenter. Cela peut-être le cas si l'objet à représenter est justement un nombre. Examinons par exemple le codage de entiers relatifs. Mais nous pouvons aussi coder des entiers naturels (bien que ce ne soit pas une construction de base dans Java).
-
-La notation binaire permet de coder des entiers relatifs. Par exemple si le nombre de bits disponibles permet de coder ou d'ordonnés 2N objets,
+Attention, ne pas confondre la valeur décimale, hexadécimale ou binaire avec l'objet qu'il permet de représenter. Cela peut-être le cas si l'objet à représenter est justement un nombre. Examinons par exemple le codage de entiers relatifs. Mais nous pouvons aussi coder des entiers naturels, bien que ce ne soit pas une construction de base dans Java. En effet, il n'est pas possible par défaut sous Java de coder les entiers naturel de ⟦0;255⟧ avec 1 octet, par défaut la valeur décimale sera un entier relatif de ⟦-128;127⟧. D'une manière générale, Java ne code que des nombres relatifs. Par contre, il est possible de récupérer l'entier naturel codé avec l'octet en le transtypant dans un `short` ou un `int` puis en tronquant l'entier relatif sur les 8 bits bas à l'aide de l'opérateur logique bit à bit (bitwise) `&` et des nombres binaires `11111111`. Le raisonnement serait le même avec le codage sur 16 bits des entiers naturels de ⟦0;65 535⟧. Il faut transtype dans un `int` puis tronquant sur 8 bits avec `&` et `11111111 11111111`.
+0 1 2 3
+0 1 10 11
+  11111111 11111110
+La notation binaire permet de coder des entiers relatifs. Par exemple, si le nombre de bits disponibles permet de coder ou d'ordonnés 2N objets,
 - les nombres ⟦-N;-1⟧ sont codés à partir de 2N-1 à rebours avec -1 associé à 2N-1,
 - et les nombres ⟦0;N-1⟧ sont codés normalement, avec naturellement 0 associé à 0.
 
@@ -57,7 +59,7 @@ jshell> int g = (int)0b11111111111111111111111110001101 & 0xff
 g ==> 141
 ```
 
-Sur 16 bits, nous pourrions utiliser les commandes suivantes, puisque `65535`, `0b1111111111111111` et `0xffff` représentent le même nombre mais dans des bases différentes :
+Sur 16 bits, nous pourrions utiliser les commandes suivantes, puisque `65 535`, `0b1111111111111111` et `0xffff` représentent le même nombre mais dans des bases différentes :
 ```
 jshell> int g = (int)0b11111111111111111111111110001101 & 0b1111111111111111
 g ==> 65421
