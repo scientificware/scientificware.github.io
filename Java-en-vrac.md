@@ -7,7 +7,7 @@
 
 Les différents types entiers se distinguent par la taille de leur représentation.
 - `byte` : (1 octet ) entiers compris entre -128 et +127 (-2^7 et 2^7-1)
-- `short` : (2 octets ) entiers compris entre -32 768 et +32 767 (-2\15 et 2^15-1)
+- `short` : (2 octets ) entiers compris entre -32 768 et +32 767 (-2^15 et 2^15-1)
 - `int` : (4 octets ) entiers compris entre -2 147 483 648 et +2 147 483 647 (-2^31 et 2^31-1)
 - `long` : (8 octets ) entiers compris entre -9 223 372 036 854 775 808 et +9 223 372 036 854 775 807 (-2^63 et 2^63-1)
 
