@@ -40,6 +40,9 @@ Installer la dernière version de build-tools :
 Installer Android Support Repository
 - `./sdkmanager "extras;android;m2repository"`
 
+Installer Google Support Repository
+- `./sdkmanager "extras;google;m2repository"`
+
 Installer les plateformes correspondant aux `build-tools` installés précédemment c'est à dire 30 et 29.
 - `./sdkmanager "platforms;android-30"`
 - `./sdkmanager "platforms;android-29"`
